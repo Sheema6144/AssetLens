@@ -13,7 +13,7 @@ Filenames are only a very weak keyword signal. The dataset downloader even gives
 
 Everything runs **locally on a CPU laptop**, with only free and open-source models. No paid APIs, no cloud.
 
-**Demo video:** _(link added at submission)_
+**Demo video:** https://drive.google.com/file/d/1QBRSDIfopO-tJ_Xg2hc57dcktFgAWZDm/view?usp=sharing
 
 ---
 

@@ -2,11 +2,11 @@
   "summary": {
     "k": 5,
     "queries": 14,
-    "fully_judged": 13,
-    "mean_p_at_5": 0.877,
-    "mean_mrr": 0.91,
+    "fully_judged": 14,
+    "mean_p_at_5": 0.886,
+    "mean_mrr": 0.916,
     "hit_rate_at_5": 1.0,
-    "mean_recall_at_10": 0.974
+    "mean_recall_at_10": 0.976
   },
   "queries": [
     {
@@ -16,7 +16,7 @@
       "expected": "Images from the 'woman cat' download batch; NOT photos of cats alone or women alone.",
       "detected_type": null,
       "embedded_query": "a woman standing with a cat",
-      "ms": 2637,
+      "ms": 2307,
       "results": [
         {
           "rank": 1,
@@ -224,7 +224,7 @@
       "expected": "Talking-head / interview videos (speech transcript + 'person talking to camera' frames).",
       "detected_type": "video",
       "embedded_query": "customer testimonial",
-      "ms": 2369,
+      "ms": 1421,
       "results": [
         {
           "rank": 1,
@@ -432,7 +432,7 @@
       "expected": "Residential brochures (generated + Wikimedia), not office or tourism brochures.",
       "detected_type": "pdf",
       "embedded_query": "residential projects",
-      "ms": 1358,
+      "ms": 916,
       "results": [
         {
           "rank": 1,
@@ -640,7 +640,7 @@
       "expected": "Living-room interior photos; kitchens/bedrooms are partial matches.",
       "detected_type": "image",
       "embedded_query": "a modern living room",
-      "ms": 954,
+      "ms": 575,
       "results": [
         {
           "rank": 1,
@@ -848,7 +848,7 @@
       "expected": "Construction / crane / excavator videos with the matching keyframe timestamp.",
       "detected_type": "video",
       "embedded_query": "construction activity",
-      "ms": 1538,
+      "ms": 692,
       "results": [
         {
           "rank": 1,
@@ -1056,7 +1056,7 @@
       "expected": "Meeting / office teamwork photos and clips.",
       "detected_type": null,
       "embedded_query": "people in a business meeting",
-      "ms": 1102,
+      "ms": 506,
       "results": [
         {
           "rank": 1,
@@ -1264,7 +1264,7 @@
       "expected": "Night city aerials; daytime aerials are only partially relevant.",
       "detected_type": null,
       "embedded_query": "aerial view of a city at night",
-      "ms": 2222,
+      "ms": 821,
       "results": [
         {
           "rank": 1,
@@ -1472,7 +1472,7 @@
       "expected": "Food and restaurant images and cooking clips.",
       "detected_type": null,
       "embedded_query": "food served on a table",
-      "ms": 1381,
+      "ms": 1019,
       "results": [
         {
           "rank": 1,
@@ -1680,7 +1680,7 @@
       "expected": "Dog photos/videos in parks, beaches, gardens.",
       "detected_type": null,
       "embedded_query": "a dog playing outdoors",
-      "ms": 2365,
+      "ms": 1605,
       "results": [
         {
           "rank": 1,
@@ -1888,7 +1888,7 @@
       "expected": "Beach + sunset images and ocean clips.",
       "detected_type": null,
       "embedded_query": "beach at sunset",
-      "ms": 1410,
+      "ms": 2364,
       "results": [
         {
           "rank": 1,
@@ -2096,7 +2096,7 @@
       "expected": "Brochure pages with floor plans (matched page number shown).",
       "detected_type": null,
       "embedded_query": "apartment floor plan",
-      "ms": 2027,
+      "ms": 2636,
       "results": [
         {
           "rank": 1,
@@ -2134,7 +2134,7 @@
             "thumb": "b4c3d2b39b17c17717b33c8853f45bdfca9cc848c7b0150c1e0e4ddb6181204c.jpg",
             "label": "a kitchen and dining area in a modern apartment"
           },
-          "relevant": 0
+          "relevant": 1
         },
         {
           "rank": 3,
@@ -2153,7 +2153,7 @@
             "thumb": "3e16c2683b8eaa965c600f2bbac1ebd15f741b137479b1ddaeb8aa1e2a0f13ad.jpg",
             "label": "an apartment building with bales and bales bales bales bales bales bales bales bales bales bales bal"
           },
-          "relevant": 0
+          "relevant": 1
         },
         {
           "rank": 4,
@@ -2172,7 +2172,7 @@
             "thumb": "d78ab0f29460e8367a4727699f2e2da9894c43966093a619678f5724c3b12e18.jpg",
             "label": "a living room and kitchen area with hardwood flooring"
           },
-          "relevant": null
+          "relevant": 1
         },
         {
           "rank": 5,
@@ -2191,7 +2191,7 @@
             "thumb": "d7e91a6333d93e654a3404397568c6cacc7690730d32a180c611e01569bbd100_p3.jpg",
             "label": "Skyline Heights Apartments - highlights Book your dream home today.."
           },
-          "relevant": 0
+          "relevant": 1
         },
         {
           "rank": 6,
@@ -2289,7 +2289,12 @@
           "relevant": null
         }
       ],
-      "metrics": null,
+      "metrics": {
+        "p_at_k": 1.0,
+        "mrr": 1.0,
+        "hit": 1,
+        "recall_at_10": 1.0
+      },
       "note": ""
     },
     {
@@ -2299,7 +2304,7 @@
       "expected": "Construction images ranked above construction videos (type intent = image).",
       "detected_type": "image",
       "embedded_query": "construction site",
-      "ms": 598,
+      "ms": 3342,
       "results": [
         {
           "rank": 1,
@@ -2507,7 +2512,7 @@
       "expected": "Street/car images; expected weakness: colour attribute may be ignored.",
       "detected_type": null,
       "embedded_query": "a red car parked on the street",
-      "ms": 491,
+      "ms": 3503,
       "results": [
         {
           "rank": 1,
@@ -2715,7 +2720,7 @@
       "expected": "Expected weakness: CLIP is poor at counting, single cats will appear.",
       "detected_type": null,
       "embedded_query": "two cats sleeping together",
-      "ms": 474,
+      "ms": 3402,
       "results": [
         {
           "rank": 1,

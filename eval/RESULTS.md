@@ -1,33 +1,33 @@
 # Search evaluation results
 
-_Generated 2026-10-04 19:54 from the Evaluate tab. Relevance judged manually by looking at each result._
+_Generated 2026-10-04 20:13 from the Evaluate tab. Relevance judged manually by looking at each result._
 
 | Metric | Value |
 |---|---|
-| Queries | 14 (fully judged: 13) |
-| Mean Precision@5 | 0.877 |
-| Mean Reciprocal Rank | 0.91 |
+| Queries | 14 (fully judged: 14) |
+| Mean Precision@5 | 0.886 |
+| Mean Reciprocal Rank | 0.916 |
 | Hit rate@5 (≥1 relevant in top 5) | 1.0 |
-| Mean Recall@10 (vs. all assets judged relevant) | 0.974 |
+| Mean Recall@10 (vs. all assets judged relevant) | 0.976 |
 
 ## Per query
 
 | # | Query | Detected type | P@5 | MRR | Latency |
 |---|---|---|---|---|---|
-| 1 | a woman standing with a cat | - | 1.0 | 1.0 | 2637 ms |
-| 2 | customer testimonial videos | video | 0.8 | 1.0 | 2369 ms |
-| 3 | brochures related to residential projects | pdf | 0.6 | 0.5 | 1358 ms |
-| 4 | images showing a modern living room | image | 1.0 | 1.0 | 954 ms |
-| 5 | videos containing construction activity | video | 1.0 | 1.0 | 1538 ms |
-| 6 | people in a business meeting | - | 1.0 | 1.0 | 1102 ms |
-| 7 | aerial view of a city at night | - | 1.0 | 1.0 | 2222 ms |
-| 8 | food served on a table | - | 1.0 | 1.0 | 1381 ms |
-| 9 | a dog playing outdoors | - | 1.0 | 1.0 | 2365 ms |
-| 10 | beach at sunset | - | 1.0 | 1.0 | 1410 ms |
-| 11 | apartment floor plan | - | n/j | n/j | 2027 ms |
-| 12 | construction site photos | image | 1.0 | 1.0 | 598 ms |
-| 13 | a red car parked on the street | - | 0.6 | 0.33 | 491 ms |
-| 14 | two cats sleeping together | - | 0.4 | 1.0 | 474 ms |
+| 1 | a woman standing with a cat | - | 1.0 | 1.0 | 2307 ms |
+| 2 | customer testimonial videos | video | 0.8 | 1.0 | 1421 ms |
+| 3 | brochures related to residential projects | pdf | 0.6 | 0.5 | 916 ms |
+| 4 | images showing a modern living room | image | 1.0 | 1.0 | 575 ms |
+| 5 | videos containing construction activity | video | 1.0 | 1.0 | 692 ms |
+| 6 | people in a business meeting | - | 1.0 | 1.0 | 506 ms |
+| 7 | aerial view of a city at night | - | 1.0 | 1.0 | 821 ms |
+| 8 | food served on a table | - | 1.0 | 1.0 | 1019 ms |
+| 9 | a dog playing outdoors | - | 1.0 | 1.0 | 1605 ms |
+| 10 | beach at sunset | - | 1.0 | 1.0 | 2364 ms |
+| 11 | apartment floor plan | - | 1.0 | 1.0 | 2636 ms |
+| 12 | construction site photos | image | 1.0 | 1.0 | 3342 ms |
+| 13 | a red car parked on the street | - | 0.6 | 0.33 | 3503 ms |
+| 14 | two cats sleeping together | - | 0.4 | 1.0 | 3402 ms |
 
 ### 1. “a woman standing with a cat”
 
@@ -193,14 +193,15 @@ _Generated 2026-10-04 19:54 from the Evaluate tab. Relevance judged manually by 
 
 - **User is trying to find:** Documents or images containing architectural floor plans.
 - **Expected assets:** Brochure pages with floor plans (matched page number shown).
+- **Result:** P@5 = 1.0, MRR = 1.0
 
 | Rank | File | Type | Score | Why it matched | Relevant? |
 |---|---|---|---|---|---|
 | 1 | `pixabay_img_354233.jpg` | image | 3.091 | image: a drawing of a house on top of a blueprint | ✅ |
-| 2 | `pixabay_img_2094666.jpg` | image | 3.046 | image: a kitchen and dining area in a modern apartment | ❌ |
-| 3 | `pixabay_img_7124141.jpg` | image | 2.673 | image: an apartment building with bales and bales bales bales bales bales bales bales b | ❌ |
-| 4 | `pixabay_img_2014863.jpg` | image | 2.624 | image: a living room and kitchen area with hardwood flooring | – |
-| 5 | `doc_1002.pdf` | pdf | 2.525 | pdf_text p.3: Skyline Heights Apartments - highlights Book your dream home today.. | ❌ |
+| 2 | `pixabay_img_2094666.jpg` | image | 3.046 | image: a kitchen and dining area in a modern apartment | ✅ |
+| 3 | `pixabay_img_7124141.jpg` | image | 2.673 | image: an apartment building with bales and bales bales bales bales bales bales bales b | ✅ |
+| 4 | `pixabay_img_2014863.jpg` | image | 2.624 | image: a living room and kitchen area with hardwood flooring | ✅ |
+| 5 | `doc_1002.pdf` | pdf | 2.525 | pdf_text p.3: Skyline Heights Apartments - highlights Book your dream home today.. | ✅ |
 
 **Observations:** _(none)_
 
