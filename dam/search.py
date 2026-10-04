@@ -35,7 +35,8 @@ WEIGHTS = {  # (visual, semantic)
     "pdf": (0.25, 0.75),
 }
 KEYWORD_WEIGHT = 0.35
-INTENT_BOOST = 1.0
+INTENT_BOOST = 1.5      # asset type named in the query ("videos of ...")
+INTENT_PENALTY = 0.5    # other types are pushed down a little (soft filter, not a hard one)
 
 INTENT_WORDS = {
     "video": r"\b(videos?|clips?|footage|films?|recordings?|movies?)\b",
@@ -76,6 +77,7 @@ class _Space:
     hashes: np.ndarray        # unique asset hashes (sorted)
     starts: np.ndarray        # group start index per asset in mat
     order: np.ndarray         # permutation that groups rows by hash
+    summary_idx: np.ndarray   # per asset: row index of its document-summary vector, or -1
 
 
 class VectorIndex:
@@ -103,7 +105,13 @@ class VectorIndex:
                 order = np.argsort(hs, kind="stable")
                 hs_sorted = hs[order]
                 uniq, starts = np.unique(hs_sorted, return_index=True)
-                self.spaces[space] = _Space(mat[order], [rows[i] for i in order], uniq, starts, order)
+                rows_sorted = [rows[i] for i in order]
+                summary_idx = np.full(len(uniq), -1, dtype=np.int64)
+                pos = {h: k for k, h in enumerate(uniq)}
+                for j, r in enumerate(rows_sorted):
+                    if r["source"] == "pdf_summary":
+                        summary_idx[pos[r["hash"]]] = j
+                self.spaces[space] = _Space(mat[order], rows_sorted, uniq, starts, order, summary_idx)
             self._version = v
 
     def best_per_asset(self, space: str, qvec: np.ndarray) -> dict[str, tuple[float, object]]:
@@ -115,9 +123,15 @@ class VectorIndex:
         # argmax inside each group
         out = {}
         ends = np.append(s.starts[1:], len(sims))
-        for h, st, en, b in zip(s.hashes, s.starts, ends, best):
+        for h, st, en, b, si in zip(s.hashes, s.starts, ends, best, s.summary_idx):
             j = st + int(np.argmax(sims[st:en]))
-            out[str(h)] = (float(b), s.rows[j])
+            score = float(b)
+            if si >= 0:
+                # Long PDFs have hundreds of chunks, so "best chunk" alone favours long
+                # documents that mention the words once. Blend with the whole-document
+                # summary so the document must be *about* the topic.
+                score = 0.5 * score + 0.5 * float(sims[si])
+            out[str(h)] = (score, s.rows[j])
         return out
 
 
@@ -253,8 +267,8 @@ class Searcher:
             elif has_s and not has_v:
                 wv, ws = 0.0, 1.0
             score = wv * zv.get(h, 0.0) + ws * zs.get(h, 0.0) + KEYWORD_WEIGHT * keyword.get(h, 0.0)
-            if intent and item["kind"] == intent:
-                score += INTENT_BOOST
+            if intent:
+                score += INTENT_BOOST if item["kind"] == intent else -INTENT_PENALTY
             match = self._explain(visual.get(h), semantic.get(h), item["kind"])
             r = dict(item)
             r.update({

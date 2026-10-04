@@ -59,7 +59,8 @@ let lastResults = [];
 let searchSeq = 0;
 async function doSearch() {
   const seq = ++searchSeq;
-  $("#resultInfo").textContent = "Searching…";
+  $("#resultInfo").textContent = window.modelsReady === false && $("#q").value.trim()
+    ? "Loading the AI models (only once after start-up, ~30–60 s)…" : "Searching…";
   try {
     const res = await api(`/api/search?${filterParams()}`);
     if (seq !== searchSeq) return; // a newer search started
@@ -191,6 +192,7 @@ function poll() { clearTimeout(pollTimer); refreshIndex().finally(() => { pollTi
 
 async function refreshIndex() {
   const s = await api("/api/index/status");
+  window.modelsReady = s.models_ready;
   if (!$("#root").value) $("#root").value = s.job?.root || s.media_dir;
   const j = s.job;
   const badge = $("#tabBadge");

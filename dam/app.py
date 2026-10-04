@@ -46,6 +46,28 @@ def create_app(cfg: Settings | None = None, models=None) -> FastAPI:
     app = FastAPI(title="AssetLens – AI Digital Asset Management", version="1.0")
     app.state.db, app.state.manager, app.state.searcher, app.state.cfg = db, manager, searcher, cfg
     app.mount("/thumbs", StaticFiles(directory=cfg.thumbs_dir), name="thumbs")
+
+    def _warmup():
+        """Load the search models + vectors in the background at start-up, so the
+        user's first search is fast instead of waiting ~1 min for model loading."""
+        t0 = time.time()
+        try:
+            models.clip_text(["warm up"])
+            models.text_embed(["warm up"])
+            searcher.index.ensure_fresh()
+            app.state.ready = True
+            print(f"  Search models loaded in {time.time() - t0:.0f} s - ready to search.", flush=True)
+        except Exception as e:  # noqa: BLE001
+            app.state.ready = True
+            print(f"  Warm-up failed ({e}); models will load on first search.", flush=True)
+
+    app.state.ready = False
+    if os.getenv("DAM_NO_WARMUP") != "1":
+        import threading
+
+        threading.Thread(target=_warmup, name="warmup", daemon=True).start()
+    else:
+        app.state.ready = True
     app.mount("/static", StaticFiles(directory=STATIC), name="static")
 
     @app.get("/")
@@ -141,6 +163,7 @@ def create_app(cfg: Settings | None = None, models=None) -> FastAPI:
             "error": manager.last_error,
             "asset_status": counts,
             "media_dir": str(cfg.media_dir),
+            "models_ready": bool(getattr(app.state, "ready", True)),
             "now": time.time(),
         }
 
