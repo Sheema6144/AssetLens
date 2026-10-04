@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AssetLens</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">◎</span> AssetLens <small>AI asset search</small></div>
+  <nav>
+    <button class="tab active" data-tab="search">Search</button>
+    <button class="tab" data-tab="index">Indexing <span id="tabBadge" class="badge hidden"></span></button>
+    <button class="tab" data-tab="eval">Evaluate</button>
+  </nav>
+</header>
+
+<!-- ============================ SEARCH ============================ -->
+<main id="tab-search" class="tabpane">
+  <form id="searchForm" class="searchbar">
+    <input id="q" type="search" placeholder="Describe what you're looking for… e.g. “a woman standing with a cat”" autocomplete="off" autofocus>
+    <button type="submit" class="primary">Search</button>
+  </form>
+  <div id="examples" class="examples"></div>
+
+  <div class="layout">
+    <aside class="filters">
+      <h4>File type</h4>
+      <label><input type="checkbox" name="kind" value="image"> Images</label>
+      <label><input type="checkbox" name="kind" value="video"> Videos</label>
+      <label><input type="checkbox" name="kind" value="pdf"> PDFs / brochures</label>
+      <h4>Size (MB)</h4>
+      <div class="row2"><input id="minMb" type="number" min="0" step="0.1" placeholder="min"><input id="maxMb" type="number" min="0" step="0.1" placeholder="max"></div>
+      <h4>Folder</h4>
+      <select id="folder"><option value="">All folders</option></select>
+      <h4>Orientation</h4>
+      <select id="orientation"><option value="">Any</option><option>landscape</option><option>portrait</option><option>square</option></select>
+      <h4>Video</h4>
+      <label><input type="checkbox" id="hasSpeech"> Has speech</label>
+      <div class="row2"><input id="maxDur" type="number" min="0" placeholder="max sec"></div>
+      <h4>Modified</h4>
+      <select id="modified"><option value="">Any time</option><option value="1">Last 24 h</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option></select>
+      <h4>Show</h4>
+      <select id="topK"><option>12</option><option selected>24</option><option>48</option></select>
+      <button id="clearFilters" class="link">Clear filters</button>
+    </aside>
+    <section class="results">
+      <div id="resultInfo" class="info"></div>
+      <div id="grid" class="grid"></div>
+    </section>
+  </div>
+</main>
+
+<!-- ============================ INDEXING ============================ -->
+<main id="tab-index" class="tabpane hidden">
+  <section class="card">
+    <h3>Index a folder</h3>
+    <div class="indexrow">
+      <input id="root" type="text" placeholder="Folder path">
+      <button id="startBtn" class="primary">Start / resume indexing</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+    <p class="muted">Unchanged files are skipped, identical files in different folders are processed once, and a stopped or crashed run resumes where it left off.</p>
+    <div class="progress"><div id="bar"></div></div>
+    <div id="jobLine" class="jobline"></div>
+    <div id="jobMsg" class="muted small"></div>
+  </section>
+  <section class="cards3">
+    <div class="card"><h3>Library</h3><div id="statsBox"></div></div>
+    <div class="card"><h3>Processing status</h3><div id="statusBox"></div></div>
+    <div class="card"><h3>Average time per file</h3><div id="timingBox"></div></div>
+  </section>
+  <section class="card">
+    <div class="cardhead"><h3>Failed, skipped &amp; warnings</h3><button id="retryBtn">Retry failed</button></div>
+    <div id="failBox"></div>
+  </section>
+</main>
+
+<!-- ============================ EVAL ============================ -->
+<main id="tab-eval" class="tabpane hidden">
+  <section class="card">
+    <div class="cardhead">
+      <h3>Search evaluation</h3>
+      <div><button id="evalRun" class="primary">Run test queries</button> <button id="evalExport">Export RESULTS.md</button></div>
+    </div>
+    <p class="muted">Each test query runs against the current index. Mark every top-5 result ✓ relevant or ✗ not relevant; metrics update automatically. Judgments are saved in the database.</p>
+    <div id="evalSummary" class="metrics"></div>
+  </section>
+  <div id="evalList"></div>
+</main>
+
+<!-- ============================ PREVIEW MODAL ============================ -->
+<div id="modal" class="modal hidden">
+  <div class="modal-body">
+    <button class="close" id="closeModal" aria-label="Close">×</button>
+    <div class="preview" id="preview"></div>
+    <div class="details" id="details"></div>
+  </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

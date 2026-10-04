@@ -1,0 +1,2855 @@
+{
+  "summary": {
+    "k": 5,
+    "queries": 14,
+    "fully_judged": 0,
+    "mean_p_at_5": null,
+    "mean_mrr": null,
+    "hit_rate_at_5": null,
+    "mean_recall_at_10": null
+  },
+  "queries": [
+    {
+      "id": 1,
+      "query": "a woman standing with a cat",
+      "intent": "Photos (or clips) where a woman and a cat appear together.",
+      "expected": "Images from the 'woman cat' download batch; NOT photos of cats alone or women alone.",
+      "detected_type": null,
+      "embedded_query": "a woman standing with a cat",
+      "ms": 837,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "18861ae4621798f8c71fa84d5dd430f4ddf3060188ebae0178a6cf11292387fe",
+          "kind": "image",
+          "filename": "copy_pixabay_img_6647719.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\misc_uploads\\copy_pixabay_img_6647719.jpg",
+          "file_id": 35,
+          "thumb": "18861ae4621798f8c71fa84d5dd430f4ddf3060188ebae0178a6cf11292387fe.jpg",
+          "caption": "a woman holding a cat in her arms",
+          "score": 4.095,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "18861ae4621798f8c71fa84d5dd430f4ddf3060188ebae0178a6cf11292387fe.jpg",
+            "label": "a woman holding a cat in her arms"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "e9bae0ac34c09f7e42e6ed6e2cf31d7e689c477afca15b6a84b6d9630878bc30",
+          "kind": "image",
+          "filename": "pixabay_img_4504156.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_4504156.jpg",
+          "file_id": 150,
+          "thumb": "e9bae0ac34c09f7e42e6ed6e2cf31d7e689c477afca15b6a84b6d9630878bc30.jpg",
+          "caption": "a woman holding a cat in her arms",
+          "score": 4.087,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "e9bae0ac34c09f7e42e6ed6e2cf31d7e689c477afca15b6a84b6d9630878bc30.jpg",
+            "label": "a woman holding a cat in her arms"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "60f5645d1d310bf8337ad12f6752d92d8361d8c38a42d193d598d29c246ae5f5",
+          "kind": "image",
+          "filename": "pixabay_img_6687637.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_6687637.jpg",
+          "file_id": 198,
+          "thumb": "60f5645d1d310bf8337ad12f6752d92d8361d8c38a42d193d598d29c246ae5f5.jpg",
+          "caption": "a woman sitting on a chair holding a cat",
+          "score": 4.05,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "60f5645d1d310bf8337ad12f6752d92d8361d8c38a42d193d598d29c246ae5f5.jpg",
+            "label": "a woman sitting on a chair holding a cat"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "29d4309c548593d098897b30f9d5feadc6dbdea1b14a11ca337e636d88d365c7",
+          "kind": "image",
+          "filename": "pixabay_img_3038253.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3038253.jpg",
+          "file_id": 115,
+          "thumb": "29d4309c548593d098897b30f9d5feadc6dbdea1b14a11ca337e636d88d365c7.jpg",
+          "caption": "a woman holding a cat in her arms",
+          "score": 3.874,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "29d4309c548593d098897b30f9d5feadc6dbdea1b14a11ca337e636d88d365c7.jpg",
+            "label": "a woman holding a cat in her arms"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "3de61bc4328b42dc1ae3e23bdfead7a77835ae6319c89793147b60e8e3f9aa99",
+          "kind": "image",
+          "filename": "pixabay_img_7639862.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7639862.jpg",
+          "file_id": 212,
+          "thumb": "3de61bc4328b42dc1ae3e23bdfead7a77835ae6319c89793147b60e8e3f9aa99.jpg",
+          "caption": "a woman holding a cat in her arms",
+          "score": 3.848,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3de61bc4328b42dc1ae3e23bdfead7a77835ae6319c89793147b60e8e3f9aa99.jpg",
+            "label": "a woman holding a cat in her arms"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "42a351462bcd49e33a227915d3b2df575d9130806f2600166148a76256b40f53",
+          "kind": "image",
+          "filename": "copy_pixabay_img_9375864.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\misc_uploads\\copy_pixabay_img_9375864.jpg",
+          "file_id": 36,
+          "thumb": "42a351462bcd49e33a227915d3b2df575d9130806f2600166148a76256b40f53.jpg",
+          "caption": "a woman in a pink tank top holding a white cat",
+          "score": 3.786,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "42a351462bcd49e33a227915d3b2df575d9130806f2600166148a76256b40f53.jpg",
+            "label": "a woman in a pink tank top holding a white cat"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "cdb281984eb9f65c687fe89d7383cd534096e131a416bf3573bc5829f90a0518",
+          "kind": "image",
+          "filename": "pixabay_img_7888260.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7888260.jpg",
+          "file_id": 214,
+          "thumb": "cdb281984eb9f65c687fe89d7383cd534096e131a416bf3573bc5829f90a0518.jpg",
+          "caption": "a woman with a cat on her head",
+          "score": 3.455,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "cdb281984eb9f65c687fe89d7383cd534096e131a416bf3573bc5829f90a0518.jpg",
+            "label": "a woman with a cat on her head"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d",
+          "kind": "pdf",
+          "filename": "doc_1010.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1010.pdf",
+          "file_id": 256,
+          "thumb": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d_p2.jpg",
+          "caption": "Happy Paws Pet Care \u2014 a dog is playing in the snow",
+          "score": 2.395,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 2.0,
+            "thumb": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d_p2.jpg",
+            "label": "a cat laying down on a white surface"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "9549419dbd8658078500e4bc2da91da29c96e4a66aec4e5e7d1760e01c50d3e2",
+          "kind": "image",
+          "filename": "pixabay_img_7182671.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7182671.jpg",
+          "file_id": 207,
+          "thumb": "9549419dbd8658078500e4bc2da91da29c96e4a66aec4e5e7d1760e01c50d3e2.jpg",
+          "caption": "a cat walking down a dirt road",
+          "score": 2.359,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "9549419dbd8658078500e4bc2da91da29c96e4a66aec4e5e7d1760e01c50d3e2.jpg",
+            "label": "a cat walking down a dirt road"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "7670b2b1571cd227d632899f592fbeb17bdc0c6f064fb925ac2efd70b31a1497",
+          "kind": "image",
+          "filename": "pixabay_img_7046333.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7046333.jpg",
+          "file_id": 202,
+          "thumb": "7670b2b1571cd227d632899f592fbeb17bdc0c6f064fb925ac2efd70b31a1497.jpg",
+          "caption": "a young girl sitting on a ledge with a cat",
+          "score": 2.33,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "7670b2b1571cd227d632899f592fbeb17bdc0c6f064fb925ac2efd70b31a1497.jpg",
+            "label": "a young girl sitting on a ledge with a cat"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 2,
+      "query": "customer testimonial videos",
+      "intent": "Videos of a person speaking to the camera / giving a review.",
+      "expected": "Talking-head / interview videos (speech transcript + 'person talking to camera' frames).",
+      "detected_type": "video",
+      "embedded_query": "customer testimonial",
+      "ms": 710,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "75d4085cbbc9978971b82c68fa241f129ce14f8aaedc2c37283a739da4d66f21",
+          "kind": "video",
+          "filename": "commons_vid_141404434.webm",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\commons_vid_141404434.webm",
+          "file_id": 1,
+          "thumb": "75d4085cbbc9978971b82c68fa241f129ce14f8aaedc2c37283a739da4d66f21_t4.jpg",
+          "caption": "a man in a blue shirt sitting down",
+          "score": 4.325,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 51.8,
+            "thumb": "75d4085cbbc9978971b82c68fa241f129ce14f8aaedc2c37283a739da4d66f21_t4.jpg",
+            "label": null
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "8e18e32e4b5355f53feb2a295f5e876d626c3c9ab1d33e59c3d17020a8cdbdce",
+          "kind": "pdf",
+          "filename": "commons_doc_80484309.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\commons_doc_80484309.pdf",
+          "file_id": 245,
+          "thumb": "8e18e32e4b5355f53feb2a295f5e876d626c3c9ab1d33e59c3d17020a8cdbdce_p1.jpg",
+          "caption": "Museum Berkolaborasi dengan Wikimedia \u2014 the flyer for the seminar",
+          "score": 4.306,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 1.0,
+            "thumb": "8e18e32e4b5355f53feb2a295f5e876d626c3c9ab1d33e59c3d17020a8cdbdce_p1.jpg",
+            "label": "the flyer for the seminar"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "3ca592974241763855426dc9ed82a9ef7f2be7fd9bd296986fe5b5eb6852376f",
+          "kind": "video",
+          "filename": "commons_vid_141404453.webm",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\commons_vid_141404453.webm",
+          "file_id": 2,
+          "thumb": "3ca592974241763855426dc9ed82a9ef7f2be7fd9bd296986fe5b5eb6852376f_t14.jpg",
+          "caption": "a woman in a black shirt is giving the peace sign",
+          "score": 3.69,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 201.3,
+            "thumb": "3ca592974241763855426dc9ed82a9ef7f2be7fd9bd296986fe5b5eb6852376f_t14.jpg",
+            "label": null
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150",
+          "kind": "pdf",
+          "filename": "doc_1009.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1009.pdf",
+          "file_id": 255,
+          "thumb": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150_p2.jpg",
+          "caption": "Fresh Bites Restaurant Menu \u2014 a wooden table topped with plates of food",
+          "score": 2.606,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 2.0,
+            "thumb": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150_p2.jpg",
+            "label": "Fresh Bites Restaurant Menu - highlights Catering available for corporate events and weddings.."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "2aad722c90605588f512f1020124abd8f969a7eb31eee252f7b7f22869b71809",
+          "kind": "video",
+          "filename": "pixabay_vid_131638.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_131638.mp4",
+          "file_id": 7,
+          "thumb": "2aad722c90605588f512f1020124abd8f969a7eb31eee252f7b7f22869b71809_t1.jpg",
+          "caption": "a blue sky with the words thanks for warning",
+          "score": 2.464,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 4.0,
+            "thumb": "2aad722c90605588f512f1020124abd8f969a7eb31eee252f7b7f22869b71809_t1.jpg",
+            "label": "a blue sky with the words thanks for warning"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "d8be608c4f37e9e5172fcf0e0d7642aaef8656ac1b45f73c66f5ac2e90128442",
+          "kind": "video",
+          "filename": "pixabay_vid_102209.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_102209.mp4",
+          "file_id": 3,
+          "thumb": "d8be608c4f37e9e5172fcf0e0d7642aaef8656ac1b45f73c66f5ac2e90128442_t0.jpg",
+          "caption": "a green screen with the word subed on it",
+          "score": 2.452,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "d8be608c4f37e9e5172fcf0e0d7642aaef8656ac1b45f73c66f5ac2e90128442_t0.jpg",
+            "label": "a green screen with a white background"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "90f3661295a2d57c09ca9b5af7752fc444e326ce2d2b570d039317aacb3559ec",
+          "kind": "pdf",
+          "filename": "doc_1006.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1006.pdf",
+          "file_id": 252,
+          "thumb": "90f3661295a2d57c09ca9b5af7752fc444e326ce2d2b570d039317aacb3559ec_p3.jpg",
+          "caption": "Prime Business Park \u2014 a group of people sitting around a table",
+          "score": 2.395,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 3.0,
+            "thumb": "90f3661295a2d57c09ca9b5af7752fc444e326ce2d2b570d039317aacb3559ec_p3.jpg",
+            "label": "Prime Business Park - highlights Lease enquiries welcome.."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "b7ef14d83c6afdc14c2e0e2d50cc9e56bbf135fcbcff24029791cdea45031cdc",
+          "kind": "video",
+          "filename": "pixabay_vid_285991.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_285991.mp4",
+          "file_id": 16,
+          "thumb": "b7ef14d83c6afdc14c2e0e2d50cc9e56bbf135fcbcff24029791cdea45031cdc_t1.jpg",
+          "caption": "a man and woman sitting at a table talking to each other people",
+          "score": 2.39,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 5.0,
+            "thumb": "b7ef14d83c6afdc14c2e0e2d50cc9e56bbf135fcbcff24029791cdea45031cdc_t1.jpg",
+            "label": "a man and woman sitting at a table talking to each other people"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "a984edf3ef8432207b55cae339dda5e69d1e1c5dbf314c4e8a4e4b4916246c5e",
+          "kind": "video",
+          "filename": "pixabay_vid_134777.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_134777.mp4",
+          "file_id": 8,
+          "thumb": "a984edf3ef8432207b55cae339dda5e69d1e1c5dbf314c4e8a4e4b4916246c5e_t0.jpg",
+          "caption": "two green screen mocks with a bridge in the background",
+          "score": 2.326,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "a984edf3ef8432207b55cae339dda5e69d1e1c5dbf314c4e8a4e4b4916246c5e_t0.jpg",
+            "label": "a green screen with a bridge in the background"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "670e370d57557c3a4c8a72b4796ca7921c742ece8a2f9140a0d39d50411a5f6b",
+          "kind": "video",
+          "filename": "pixabay_vid_349094.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_349094.mp4",
+          "file_id": 18,
+          "thumb": "670e370d57557c3a4c8a72b4796ca7921c742ece8a2f9140a0d39d50411a5f6b_t1.jpg",
+          "caption": "a woman sitting at a table reading a piece of paper",
+          "score": 2.025,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 4.0,
+            "thumb": "670e370d57557c3a4c8a72b4796ca7921c742ece8a2f9140a0d39d50411a5f6b_t1.jpg",
+            "label": "a woman reading a paper while sitting on a couch"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 3,
+      "query": "brochures related to residential projects",
+      "intent": "PDF brochures that market housing / apartments / residential developments.",
+      "expected": "Residential brochures (generated + Wikimedia), not office or tourism brochures.",
+      "detected_type": "pdf",
+      "embedded_query": "residential projects",
+      "ms": 908,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "b9e7a64a5648519dfb2b341c681eefa7f21db49fbfe29a32a528ae8937380629",
+          "kind": "pdf",
+          "filename": "doc_1007.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1007.pdf",
+          "file_id": 253,
+          "thumb": "b9e7a64a5648519dfb2b341c681eefa7f21db49fbfe29a32a528ae8937380629_p2.jpg",
+          "caption": "BuildRight Construction Services \u2014 the cover of a book with two men working on a construction site",
+          "score": 3.949,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 2.0,
+            "thumb": "b9e7a64a5648519dfb2b341c681eefa7f21db49fbfe29a32a528ae8937380629_p2.jpg",
+            "label": "BuildRight Construction Services - highlights Foundations, structural work, project management and safety-first execution for residential and commercial projects.."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "069c95474d68684e84e34d2b1d81394e6f03edb5e31c10e5dd56680f10337b85",
+          "kind": "pdf",
+          "filename": "doc_1001.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1001.pdf",
+          "file_id": 247,
+          "thumb": "069c95474d68684e84e34d2b1d81394e6f03edb5e31c10e5dd56680f10337b85_p3.jpg",
+          "caption": "Green Meadows Residences \u2014 green meadows residencess",
+          "score": 3.298,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 3.0,
+            "thumb": "069c95474d68684e84e34d2b1d81394e6f03edb5e31c10e5dd56680f10337b85_p3.jpg",
+            "label": "Green Meadows Residences - highlights RERA approved housing project."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "b8905d62015152580b28d52beb9bbdfa7548079f1fc9413966c97dad13c3aeaf",
+          "kind": "pdf",
+          "filename": "doc_1005.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1005.pdf",
+          "file_id": 251,
+          "thumb": "b8905d62015152580b28d52beb9bbdfa7548079f1fc9413966c97dad13c3aeaf_p2.jpg",
+          "caption": "Riverside Township Phase II \u2014 the cover of the book riverside town phase ii",
+          "score": 3.066,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 2.0,
+            "thumb": "b8905d62015152580b28d52beb9bbdfa7548079f1fc9413966c97dad13c3aeaf_p2.jpg",
+            "label": "Riverside Township Phase II - highlights Plotted development and row houses with typical floor plans, amenities and construction progress updates.."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "302994675d962d9e6a370392270e7e73eff811158d644ba8f8e63fcf6ee00b5d",
+          "kind": "pdf",
+          "filename": "doc_1003.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1003.pdf",
+          "file_id": 249,
+          "thumb": "302994675d962d9e6a370392270e7e73eff811158d644ba8f8e63fcf6ee00b5d_p2.jpg",
+          "caption": "Palm Grove Villas \u2014 the cover of a book with a pool in the background",
+          "score": 2.63,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 2.0,
+            "thumb": "302994675d962d9e6a370392270e7e73eff811158d644ba8f8e63fcf6ee00b5d_p2.jpg",
+            "label": "Palm Grove Villas - highlights Private gardens, Italian marble flooring, smart-home automation."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569",
+          "kind": "video",
+          "filename": "pixabay_vid_41826.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_41826.mp4",
+          "file_id": 22,
+          "thumb": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569_t0.jpg",
+          "caption": "a construction site in the middle of a city",
+          "score": 2.25,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569_t0.jpg",
+            "label": "a construction site in the middle of a residential area"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "d7e91a6333d93e654a3404397568c6cacc7690730d32a180c611e01569bbd100",
+          "kind": "pdf",
+          "filename": "doc_1002.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1002.pdf",
+          "file_id": 248,
+          "thumb": "d7e91a6333d93e654a3404397568c6cacc7690730d32a180c611e01569bbd100_p3.jpg",
+          "caption": "Skyline Heights Apartments \u2014 a room with a fireplace and a large window",
+          "score": 2.218,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 3.0,
+            "thumb": "d7e91a6333d93e654a3404397568c6cacc7690730d32a180c611e01569bbd100_p3.jpg",
+            "label": "Skyline Heights Apartments - highlights Book your dream home today.."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "3e16c2683b8eaa965c600f2bbac1ebd15f741b137479b1ddaeb8aa1e2a0f13ad",
+          "kind": "image",
+          "filename": "pixabay_img_7124141.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7124141.jpg",
+          "file_id": 204,
+          "thumb": "3e16c2683b8eaa965c600f2bbac1ebd15f741b137479b1ddaeb8aa1e2a0f13ad.jpg",
+          "caption": "an apartment building with bales and bales bales bales bales bales bales bales bales bales bales bal",
+          "score": 2.174,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3e16c2683b8eaa965c600f2bbac1ebd15f741b137479b1ddaeb8aa1e2a0f13ad.jpg",
+            "label": "an apartment building with bales and bales bales bales bales bales bales bales bales bales bales bal"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150",
+          "kind": "pdf",
+          "filename": "doc_1009.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1009.pdf",
+          "file_id": 255,
+          "thumb": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150_p3.jpg",
+          "caption": "Fresh Bites Restaurant Menu \u2014 a wooden table topped with plates of food",
+          "score": 2.046,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 3.0,
+            "thumb": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150_p3.jpg",
+            "label": "a kitchen with wooden cabinets and a dining table"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5",
+          "kind": "video",
+          "filename": "pixabay_vid_42923.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_42923.mp4",
+          "file_id": 23,
+          "thumb": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5_t3.jpg",
+          "caption": "construction workers work on the site of a building under construction in mumbai",
+          "score": 1.99,
+          "confidence": "medium",
+          "match": {
+            "source": "frame",
+            "ref": 12.0,
+            "thumb": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5_t3.jpg",
+            "label": "aerial view of construction site"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3",
+          "kind": "pdf",
+          "filename": "doc_1004.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1004.pdf",
+          "file_id": 250,
+          "thumb": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3_p3.jpg",
+          "caption": "an empty room with white walls and wood floors",
+          "score": 1.888,
+          "confidence": "medium",
+          "match": {
+            "source": "caption",
+            "ref": 3.0,
+            "thumb": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3_p3.jpg",
+            "label": "a kitchen with a large island in the middle"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 4,
+      "query": "images showing a modern living room",
+      "intent": "Interior photos of contemporary living rooms.",
+      "expected": "Living-room interior photos; kitchens/bedrooms are partial matches.",
+      "detected_type": "image",
+      "embedded_query": "a modern living room",
+      "ms": 693,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "a5fc1dc1431b8b3e1b57ec1b15440aa13a1f422e7c38bd9fb3095e9d227cf556",
+          "kind": "image",
+          "filename": "pixabay_img_9053405.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_9053405.jpg",
+          "file_id": 236,
+          "thumb": "a5fc1dc1431b8b3e1b57ec1b15440aa13a1f422e7c38bd9fb3095e9d227cf556.jpg",
+          "caption": "a living room with a couch and a coffee table",
+          "score": 4.351,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "a5fc1dc1431b8b3e1b57ec1b15440aa13a1f422e7c38bd9fb3095e9d227cf556.jpg",
+            "label": "a living room with a couch and a coffee table"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "8ae2ce7461649f95b593d968135ff224e661ce1277dc52d8669aab5ce65b5b97",
+          "kind": "image",
+          "filename": "pixabay_img_1622401.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1622401.jpg",
+          "file_id": 54,
+          "thumb": "8ae2ce7461649f95b593d968135ff224e661ce1277dc52d8669aab5ce65b5b97.jpg",
+          "caption": "a living room with a couch and a glass coffee table",
+          "score": 4.309,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "8ae2ce7461649f95b593d968135ff224e661ce1277dc52d8669aab5ce65b5b97.jpg",
+            "label": "a living room with a couch and a glass coffee table"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "3fedcab0ee0499bf2e333fd93d88cc78553f62e5460483810149d0426a0a3273",
+          "kind": "image",
+          "filename": "pixabay_img_2685521.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2685521.jpg",
+          "file_id": 110,
+          "thumb": "3fedcab0ee0499bf2e333fd93d88cc78553f62e5460483810149d0426a0a3273.jpg",
+          "caption": "a living room with a couch, chair and stairs",
+          "score": 4.302,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3fedcab0ee0499bf2e333fd93d88cc78553f62e5460483810149d0426a0a3273.jpg",
+            "label": "a living room with a couch, chair and stairs"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "c4b751cac4672fa657c870b6ff0b2b3ae958637192834fc26fbefd5cc44768e9",
+          "kind": "image",
+          "filename": "pixabay_img_2732939.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2732939.jpg",
+          "file_id": 111,
+          "thumb": "c4b751cac4672fa657c870b6ff0b2b3ae958637192834fc26fbefd5cc44768e9.jpg",
+          "caption": "a living room with white brick walls and wooden floors",
+          "score": 4.183,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "c4b751cac4672fa657c870b6ff0b2b3ae958637192834fc26fbefd5cc44768e9.jpg",
+            "label": "a living room with white brick walls and wooden floors"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "d1629978f4f9a6b0f92d4159e91fee999ea37917ce322bc139697072739a1fde",
+          "kind": "image",
+          "filename": "pixabay_img_1835923.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1835923.jpg",
+          "file_id": 66,
+          "thumb": "d1629978f4f9a6b0f92d4159e91fee999ea37917ce322bc139697072739a1fde.jpg",
+          "caption": "a living room with a couch and a painting on the wall",
+          "score": 4.115,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "d1629978f4f9a6b0f92d4159e91fee999ea37917ce322bc139697072739a1fde.jpg",
+            "label": "a living room with a couch and a painting on the wall"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "d1ed4f05247d453cea5ef00a584939d1c351969545d4ee01dbbf80752c1787a5",
+          "kind": "image",
+          "filename": "pixabay_img_2181947.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2181947.jpg",
+          "file_id": 96,
+          "thumb": "d1ed4f05247d453cea5ef00a584939d1c351969545d4ee01dbbf80752c1787a5.jpg",
+          "caption": "a living room with a couch, table and chairs",
+          "score": 3.963,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "d1ed4f05247d453cea5ef00a584939d1c351969545d4ee01dbbf80752c1787a5.jpg",
+            "label": "a living room with a couch, table and chairs"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "78cfb13110ec1bcda71c1309dc89dbddcee971f2e07841f8768671da6d11045e",
+          "kind": "image",
+          "filename": "pixabay_img_416060.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_416060.jpg",
+          "file_id": 142,
+          "thumb": "78cfb13110ec1bcda71c1309dc89dbddcee971f2e07841f8768671da6d11045e.jpg",
+          "caption": "a living room with blue walls and wooden flooring",
+          "score": 3.896,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "78cfb13110ec1bcda71c1309dc89dbddcee971f2e07841f8768671da6d11045e.jpg",
+            "label": "a living room with blue walls and wooden flooring"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "88109679652119c65f93b4317d43a70e66261f81fd9fe9e17c8fcaa97c8ca161",
+          "kind": "image",
+          "filename": "pixabay_img_2035025.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2035025.jpg",
+          "file_id": 89,
+          "thumb": "88109679652119c65f93b4317d43a70e66261f81fd9fe9e17c8fcaa97c8ca161.jpg",
+          "caption": "a room with a desk and chairs in it",
+          "score": 3.559,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "88109679652119c65f93b4317d43a70e66261f81fd9fe9e17c8fcaa97c8ca161.jpg",
+            "label": "a room with a desk and chairs in it"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "5fa6b052c4a529a2438e584542955c6310adc0074e23ffeace32bb86d7d1e1f7",
+          "kind": "image",
+          "filename": "pixabay_img_2181968.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2181968.jpg",
+          "file_id": 97,
+          "thumb": "5fa6b052c4a529a2438e584542955c6310adc0074e23ffeace32bb86d7d1e1f7.jpg",
+          "caption": "a room with a table, chairs and a painting on the wall",
+          "score": 3.491,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "5fa6b052c4a529a2438e584542955c6310adc0074e23ffeace32bb86d7d1e1f7.jpg",
+            "label": "a room with a table, chairs and a painting on the wall"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "784d906a60d07944385468644d1c07caa139ee7930b5a6f3f35d088bbbe2b8ae",
+          "kind": "image",
+          "filename": "pixabay_img_7349893.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7349893.jpg",
+          "file_id": 208,
+          "thumb": "784d906a60d07944385468644d1c07caa139ee7930b5a6f3f35d088bbbe2b8ae.jpg",
+          "caption": "a bedroom with a bed, desk and chair",
+          "score": 3.417,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "784d906a60d07944385468644d1c07caa139ee7930b5a6f3f35d088bbbe2b8ae.jpg",
+            "label": "a bedroom with a bed, desk and chair"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 5,
+      "query": "videos containing construction activity",
+      "intent": "Video clips of construction sites, cranes, excavators, workers.",
+      "expected": "Construction / crane / excavator videos with the matching keyframe timestamp.",
+      "detected_type": "video",
+      "embedded_query": "construction activity",
+      "ms": 613,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569",
+          "kind": "video",
+          "filename": "pixabay_vid_41826.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_41826.mp4",
+          "file_id": 22,
+          "thumb": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569_t0.jpg",
+          "caption": "a construction site in the middle of a city",
+          "score": 4.152,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569_t0.jpg",
+            "label": "a construction site in the middle of a residential area"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5",
+          "kind": "video",
+          "filename": "pixabay_vid_42923.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_42923.mp4",
+          "file_id": 23,
+          "thumb": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5_t3.jpg",
+          "caption": "construction workers work on the site of a building under construction in mumbai",
+          "score": 4.095,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 12.0,
+            "thumb": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5_t3.jpg",
+            "label": "aerial view of construction site"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "ee65d857f7464ec9a15d4a9e47ca355c906fcec978febbce9ba2bc95eeac54e1",
+          "kind": "video",
+          "filename": "pixabay_vid_42926.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_42926.mp4",
+          "file_id": 24,
+          "thumb": "ee65d857f7464ec9a15d4a9e47ca355c906fcec978febbce9ba2bc95eeac54e1_t0.jpg",
+          "caption": "a construction site with a crane on top of it",
+          "score": 4.01,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "ee65d857f7464ec9a15d4a9e47ca355c906fcec978febbce9ba2bc95eeac54e1_t0.jpg",
+            "label": "a construction site in the middle of a city"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "b0f7b52336be5072db0de5792f2287f3a3d04f8ff3126edc56bc948865c8d422",
+          "kind": "video",
+          "filename": "pixabay_vid_40298.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_40298.mp4",
+          "file_id": 20,
+          "thumb": "b0f7b52336be5072db0de5792f2287f3a3d04f8ff3126edc56bc948865c8d422_t5.jpg",
+          "caption": "a building under construction",
+          "score": 3.908,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 20.0,
+            "thumb": "b0f7b52336be5072db0de5792f2287f3a3d04f8ff3126edc56bc948865c8d422_t5.jpg",
+            "label": "a large pile of gravel next to a building"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "7f61c9158ed001601efa74e8e59775671e850a1b8b7dfe9d676df02ec5b03abc",
+          "kind": "video",
+          "filename": "pixabay_vid_199375.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_199375.mp4",
+          "file_id": 11,
+          "thumb": "7f61c9158ed001601efa74e8e59775671e850a1b8b7dfe9d676df02ec5b03abc_t1.jpg",
+          "caption": "an aerial view of a construction site",
+          "score": 3.561,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 4.0,
+            "thumb": "7f61c9158ed001601efa74e8e59775671e850a1b8b7dfe9d676df02ec5b03abc_t1.jpg",
+            "label": "an aerial view of a construction site"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "e1ae74c1450595f92213b36f314fa7d1afde7de46e71dc9fa1f372cb586ec09d",
+          "kind": "video",
+          "filename": "pixabay_vid_3741.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_3741.mp4",
+          "file_id": 19,
+          "thumb": "e1ae74c1450595f92213b36f314fa7d1afde7de46e71dc9fa1f372cb586ec09d_t3.jpg",
+          "caption": "an aerial view of a construction site in the mountains",
+          "score": 3.469,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 12.0,
+            "thumb": "e1ae74c1450595f92213b36f314fa7d1afde7de46e71dc9fa1f372cb586ec09d_t3.jpg",
+            "label": "an aerial view of a construction site in the mountains"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "e32ce130107ec720e2811d642572d80aa29fdd83f79c73aaa40d4a09d2890445",
+          "kind": "video",
+          "filename": "pixabay_vid_206315.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_206315.mp4",
+          "file_id": 12,
+          "thumb": "e32ce130107ec720e2811d642572d80aa29fdd83f79c73aaa40d4a09d2890445_t4.jpg",
+          "caption": "the sky is blue",
+          "score": 3.191,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 16.0,
+            "thumb": "e32ce130107ec720e2811d642572d80aa29fdd83f79c73aaa40d4a09d2890445_t4.jpg",
+            "label": "a crane on top of a building"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "b9e7a64a5648519dfb2b341c681eefa7f21db49fbfe29a32a528ae8937380629",
+          "kind": "pdf",
+          "filename": "doc_1007.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1007.pdf",
+          "file_id": 253,
+          "thumb": "b9e7a64a5648519dfb2b341c681eefa7f21db49fbfe29a32a528ae8937380629_p2.jpg",
+          "caption": "BuildRight Construction Services \u2014 the cover of a book with two men working on a construction site",
+          "score": 3.174,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 2.0,
+            "thumb": "b9e7a64a5648519dfb2b341c681eefa7f21db49fbfe29a32a528ae8937380629_p2.jpg",
+            "label": "BuildRight Construction Services - highlights Foundations, structural work, project management and safety-first execution for residential and commercial projects.."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "a7441f78c0f8f41a0228adf59a8da3416e2f20c0be37d32e9de0a2ceed013656",
+          "kind": "image",
+          "filename": "pixabay_img_3555550.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3555550.jpg",
+          "file_id": 129,
+          "thumb": "a7441f78c0f8f41a0228adf59a8da3416e2f20c0be37d32e9de0a2ceed013656.jpg",
+          "caption": "a building under construction with scr scr scr scr scr scr scr scr scr scr scr sc",
+          "score": 3.006,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "a7441f78c0f8f41a0228adf59a8da3416e2f20c0be37d32e9de0a2ceed013656.jpg",
+            "label": "a building under construction with scr scr scr scr scr scr scr scr scr scr scr sc"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "7a82451e5f0afeea70d5a9f86c26be43293d023f570703aa9f122fdd436ff779",
+          "kind": "video",
+          "filename": "pixabay_vid_213487.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_213487.mp4",
+          "file_id": 13,
+          "thumb": "7a82451e5f0afeea70d5a9f86c26be43293d023f570703aa9f122fdd436ff779_t0.jpg",
+          "caption": "an exor in the rubble of a building",
+          "score": 2.927,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "7a82451e5f0afeea70d5a9f86c26be43293d023f570703aa9f122fdd436ff779_t0.jpg",
+            "label": "a digger digging through rubbles in a demolition site"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 6,
+      "query": "people in a business meeting",
+      "intent": "Office meeting scenes (images or videos).",
+      "expected": "Meeting / office teamwork photos and clips.",
+      "detected_type": null,
+      "embedded_query": "people in a business meeting",
+      "ms": 733,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "c114ce3be20e366c83f5b8dfebfd0ed3c00d35571d8fcf25dbd6541f2798e47b",
+          "kind": "image",
+          "filename": "pixabay_img_1979261.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1979261.jpg",
+          "file_id": 86,
+          "thumb": "c114ce3be20e366c83f5b8dfebfd0ed3c00d35571d8fcf25dbd6541f2798e47b.jpg",
+          "caption": "a group of business people sitting around a table",
+          "score": 4.004,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "c114ce3be20e366c83f5b8dfebfd0ed3c00d35571d8fcf25dbd6541f2798e47b.jpg",
+            "label": "a group of business people sitting around a table"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "3ae5720e280776f0093a565f5b8ef603460446ed66318398f3e922f477e78661",
+          "kind": "image",
+          "filename": "pixabay_img_2284501.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2284501.jpg",
+          "file_id": 101,
+          "thumb": "3ae5720e280776f0093a565f5b8ef603460446ed66318398f3e922f477e78661.jpg",
+          "caption": "a group of people sitting around a table",
+          "score": 3.223,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3ae5720e280776f0093a565f5b8ef603460446ed66318398f3e922f477e78661.jpg",
+            "label": "a group of people sitting around a table"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "a8345538235f5e504a3b456c9640256a7453e8b5e54b5abc7d6b1dffacf7e0e7",
+          "kind": "image",
+          "filename": "pixabay_img_5382501.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_5382501.jpg",
+          "file_id": 174,
+          "thumb": "a8345538235f5e504a3b456c9640256a7453e8b5e54b5abc7d6b1dffacf7e0e7.jpg",
+          "caption": "a group of people sitting around a table with laptops",
+          "score": 3.175,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "a8345538235f5e504a3b456c9640256a7453e8b5e54b5abc7d6b1dffacf7e0e7.jpg",
+            "label": "a group of people sitting around a table with laptops"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "acae23c07958714f018e809e9fb5139466fdcf9d217fe8b0f7186236d032ed8e",
+          "kind": "image",
+          "filename": "pixabay_img_594091.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_594091.jpg",
+          "file_id": 192,
+          "thumb": "acae23c07958714f018e809e9fb5139466fdcf9d217fe8b0f7186236d032ed8e.jpg",
+          "caption": "a group of people sitting at a table with laptops",
+          "score": 3.044,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "acae23c07958714f018e809e9fb5139466fdcf9d217fe8b0f7186236d032ed8e.jpg",
+            "label": "a group of people sitting at a table with laptops"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "90f3661295a2d57c09ca9b5af7752fc444e326ce2d2b570d039317aacb3559ec",
+          "kind": "pdf",
+          "filename": "doc_1006.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1006.pdf",
+          "file_id": 252,
+          "thumb": "90f3661295a2d57c09ca9b5af7752fc444e326ce2d2b570d039317aacb3559ec_p1.jpg",
+          "caption": "Prime Business Park \u2014 a group of people sitting around a table",
+          "score": 3.033,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 1.0,
+            "thumb": "90f3661295a2d57c09ca9b5af7752fc444e326ce2d2b570d039317aacb3559ec_p1.jpg",
+            "label": "a group of people sitting around a table"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "f1bea1672506b2de01e503eb1bbe4a2b2afbc7518046a8a2e988b964237594e7",
+          "kind": "image",
+          "filename": "pixabay_img_593341.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_593341.jpg",
+          "file_id": 190,
+          "thumb": "f1bea1672506b2de01e503eb1bbe4a2b2afbc7518046a8a2e988b964237594e7.jpg",
+          "caption": "a group of people sitting at a table with laptops",
+          "score": 2.742,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "f1bea1672506b2de01e503eb1bbe4a2b2afbc7518046a8a2e988b964237594e7.jpg",
+            "label": "a group of people sitting at a table with laptops"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "b7ef14d83c6afdc14c2e0e2d50cc9e56bbf135fcbcff24029791cdea45031cdc",
+          "kind": "video",
+          "filename": "pixabay_vid_285991.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_285991.mp4",
+          "file_id": 16,
+          "thumb": "b7ef14d83c6afdc14c2e0e2d50cc9e56bbf135fcbcff24029791cdea45031cdc_t0.jpg",
+          "caption": "a man and woman sitting at a table talking to each other people",
+          "score": 2.714,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "b7ef14d83c6afdc14c2e0e2d50cc9e56bbf135fcbcff24029791cdea45031cdc_t0.jpg",
+            "label": "a man and woman sitting at a table with a green screen"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "ca9859291bdfab103129c41aec661e1a95e1c00d7a888b661df60a0f1bd22840",
+          "kind": "image",
+          "filename": "pixabay_img_594090.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_594090.jpg",
+          "file_id": 191,
+          "thumb": "ca9859291bdfab103129c41aec661e1a95e1c00d7a888b661df60a0f1bd22840.jpg",
+          "caption": "two people sitting at a table with a laptop and a notebook",
+          "score": 2.678,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "ca9859291bdfab103129c41aec661e1a95e1c00d7a888b661df60a0f1bd22840.jpg",
+            "label": "two people sitting at a table with a laptop and a notebook"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "205214b11bf013ed871f2e89f37ea56c16180090c6d415b10b252de0142e6645",
+          "kind": "image",
+          "filename": "pixabay_img_3213924.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3213924.jpg",
+          "file_id": 121,
+          "thumb": "205214b11bf013ed871f2e89f37ea56c16180090c6d415b10b252de0142e6645.jpg",
+          "caption": "a group of people holding hands over a table with papers and laptops",
+          "score": 2.597,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "205214b11bf013ed871f2e89f37ea56c16180090c6d415b10b252de0142e6645.jpg",
+            "label": "a group of people holding hands over a table with papers and laptops"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "30acd010ed7b052acce20b5c0dec148cea04332f0c70cd258b7256fb1417be3f",
+          "kind": "image",
+          "filename": "pixabay_img_3475991.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3475991.jpg",
+          "file_id": 127,
+          "thumb": "30acd010ed7b052acce20b5c0dec148cea04332f0c70cd258b7256fb1417be3f.jpg",
+          "caption": "a group of people sitting in a row",
+          "score": 2.541,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "30acd010ed7b052acce20b5c0dec148cea04332f0c70cd258b7256fb1417be3f.jpg",
+            "label": "a group of people sitting in a row"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 7,
+      "query": "aerial view of a city at night",
+      "intent": "Drone / skyline shots of a city after dark.",
+      "expected": "Night city aerials; daytime aerials are only partially relevant.",
+      "detected_type": null,
+      "embedded_query": "aerial view of a city at night",
+      "ms": 502,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "c1ae43b39a40e9f4dbe62b9e866fabe8e09c27af3220c75f5847503cec09b615",
+          "kind": "image",
+          "filename": "pixabay_img_2178705.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2178705.jpg",
+          "file_id": 95,
+          "thumb": "c1ae43b39a40e9f4dbe62b9e866fabe8e09c27af3220c75f5847503cec09b615.jpg",
+          "caption": "a city at night from the top of a building",
+          "score": 3.567,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "c1ae43b39a40e9f4dbe62b9e866fabe8e09c27af3220c75f5847503cec09b615.jpg",
+            "label": "a city at night from the top of a building"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "991a734c9a03008d931a5761f404f6f26f60410908feab11267e017d8bbfe88b",
+          "kind": "image",
+          "filename": "pixabay_img_2278471.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2278471.jpg",
+          "file_id": 100,
+          "thumb": "991a734c9a03008d931a5761f404f6f26f60410908feab11267e017d8bbfe88b.jpg",
+          "caption": "an aerial view of a busy intersection at night",
+          "score": 3.516,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "991a734c9a03008d931a5761f404f6f26f60410908feab11267e017d8bbfe88b.jpg",
+            "label": "an aerial view of a busy intersection at night"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "d3b22b36782c869e568d0dd9492ea25cf8b301faf5a6d07827ad0e04a3203720",
+          "kind": "image",
+          "filename": "pixabay_img_9456745.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_9456745.jpg",
+          "file_id": 243,
+          "thumb": "d3b22b36782c869e568d0dd9492ea25cf8b301faf5a6d07827ad0e04a3203720.jpg",
+          "caption": "the tokyo skyline at night",
+          "score": 3.405,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "d3b22b36782c869e568d0dd9492ea25cf8b301faf5a6d07827ad0e04a3203720.jpg",
+            "label": "the tokyo skyline at night"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "fd71ebdff518c793a594143aa3e0996606d1b794fa3a2dadc1ed2834fce1ecbd",
+          "kind": "image",
+          "filename": "pixabay_img_1767540.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1767540.jpg",
+          "file_id": 62,
+          "thumb": "fd71ebdff518c793a594143aa3e0996606d1b794fa3a2dadc1ed2834fce1ecbd.jpg",
+          "caption": "the city skyline at night in dubai, uae",
+          "score": 3.296,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "fd71ebdff518c793a594143aa3e0996606d1b794fa3a2dadc1ed2834fce1ecbd.jpg",
+            "label": "the city skyline at night in dubai, uae"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "0e6884a535493d48a04fd4653f3739f94ed7a66d767a3d97d535b989a7b3a0d9",
+          "kind": "image",
+          "filename": "pixabay_img_4534092.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_4534092.jpg",
+          "file_id": 151,
+          "thumb": "0e6884a535493d48a04fd4653f3739f94ed7a66d767a3d97d535b989a7b3a0d9.jpg",
+          "caption": "a view of the city from the top of a building",
+          "score": 3.146,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "0e6884a535493d48a04fd4653f3739f94ed7a66d767a3d97d535b989a7b3a0d9.jpg",
+            "label": "a view of the city from the top of a building"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "a5786c92ed4276db7ff3fc070fda68ddcfa8707e05d59188704dfb9d74ae3939",
+          "kind": "image",
+          "filename": "pixabay_img_1869214.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1869214.jpg",
+          "file_id": 83,
+          "thumb": "a5786c92ed4276db7ff3fc070fda68ddcfa8707e05d59188704dfb9d74ae3939.jpg",
+          "caption": "the view from the top of the empire building at night",
+          "score": 3.087,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "a5786c92ed4276db7ff3fc070fda68ddcfa8707e05d59188704dfb9d74ae3939.jpg",
+            "label": "the view from the top of the empire building at night"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "5e2c5ebcf1ccf3fd04371814406d9cb3478d5af8e15eda5dfcd4a06444ebf68f",
+          "kind": "image",
+          "filename": "copy_pixabay_img_3660779.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\misc_uploads\\copy_pixabay_img_3660779.jpg",
+          "file_id": 33,
+          "thumb": "5e2c5ebcf1ccf3fd04371814406d9cb3478d5af8e15eda5dfcd4a06444ebf68f.jpg",
+          "caption": "a view of the city of frankfurt at night",
+          "score": 3.081,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "5e2c5ebcf1ccf3fd04371814406d9cb3478d5af8e15eda5dfcd4a06444ebf68f.jpg",
+            "label": "a view of the city of frankfurt at night"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "f2b974645626d094e9e85a7a2e1238d3f832aab23eaeca58d6774624eeacfc3c",
+          "kind": "image",
+          "filename": "pixabay_img_2517653.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2517653.jpg",
+          "file_id": 106,
+          "thumb": "f2b974645626d094e9e85a7a2e1238d3f832aab23eaeca58d6774624eeacfc3c.jpg",
+          "caption": "a city at night with fog and fog",
+          "score": 3.06,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "f2b974645626d094e9e85a7a2e1238d3f832aab23eaeca58d6774624eeacfc3c.jpg",
+            "label": "a city at night with fog and fog"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "3c393ec64ba9df19ac75fa92d7fd7df421a7e213f1e3b4a8414bfe9390df0bec",
+          "kind": "image",
+          "filename": "pixabay_img_8170058.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_8170058.jpg",
+          "file_id": 221,
+          "thumb": "3c393ec64ba9df19ac75fa92d7fd7df421a7e213f1e3b4a8414bfe9390df0bec.jpg",
+          "caption": "a view of a city at sunset",
+          "score": 2.955,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3c393ec64ba9df19ac75fa92d7fd7df421a7e213f1e3b4a8414bfe9390df0bec.jpg",
+            "label": "a view of a city at sunset"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "89439cc99876b40d3e834dc1ef2716c422f315b98bddc8e87b3ccfdf8e742418",
+          "kind": "image",
+          "filename": "pixabay_img_8214498.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_8214498.jpg",
+          "file_id": 225,
+          "thumb": "89439cc99876b40d3e834dc1ef2716c422f315b98bddc8e87b3ccfdf8e742418.jpg",
+          "caption": "a view of the city skyline at sunset",
+          "score": 2.859,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "89439cc99876b40d3e834dc1ef2716c422f315b98bddc8e87b3ccfdf8e742418.jpg",
+            "label": "a view of the city skyline at sunset"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 8,
+      "query": "food served on a table",
+      "intent": "Food photography / dining scenes.",
+      "expected": "Food and restaurant images and cooking clips.",
+      "detected_type": null,
+      "embedded_query": "food served on a table",
+      "ms": 310,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "0f3eac47cbf78f9528a26e972cb53fe066dd6d9dd23df0b30680fcb4aa768409",
+          "kind": "image",
+          "filename": "pixabay_img_1050813.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1050813.jpg",
+          "file_id": 45,
+          "thumb": "0f3eac47cbf78f9528a26e972cb53fe066dd6d9dd23df0b30680fcb4aa768409.jpg",
+          "caption": "a wooden table topped with plates of food",
+          "score": 4.175,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "0f3eac47cbf78f9528a26e972cb53fe066dd6d9dd23df0b30680fcb4aa768409.jpg",
+            "label": "a wooden table topped with plates of food"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "08c001018e278e16e9025dc060bb044770d4e6cba569f0f85dd344df188fc0d7",
+          "kind": "image",
+          "filename": "pixabay_img_2009590.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2009590.jpg",
+          "file_id": 88,
+          "thumb": "08c001018e278e16e9025dc060bb044770d4e6cba569f0f85dd344df188fc0d7.jpg",
+          "caption": "a table full of food and wine",
+          "score": 4.083,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "08c001018e278e16e9025dc060bb044770d4e6cba569f0f85dd344df188fc0d7.jpg",
+            "label": "a table full of food and wine"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150",
+          "kind": "pdf",
+          "filename": "doc_1009.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1009.pdf",
+          "file_id": 255,
+          "thumb": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150_p1.jpg",
+          "caption": "Fresh Bites Restaurant Menu \u2014 a wooden table topped with plates of food",
+          "score": 3.912,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 1.0,
+            "thumb": "0acaabf77ba053119a8991baea9d0499dfe40616ba9dd36728ae54673171c150_p1.jpg",
+            "label": "a wooden table topped with plates of food"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "5671e0706b83c86d2c81c1d3e775e6e58fe898f64e8d38cd1128a4a2515a9d94",
+          "kind": "image",
+          "filename": "pixabay_img_4234067.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_4234067.jpg",
+          "file_id": 144,
+          "thumb": "5671e0706b83c86d2c81c1d3e775e6e58fe898f64e8d38cd1128a4a2515a9d94.jpg",
+          "caption": "a white table topped with breakfast foods on it",
+          "score": 3.577,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "5671e0706b83c86d2c81c1d3e775e6e58fe898f64e8d38cd1128a4a2515a9d94.jpg",
+            "label": "a white table topped with breakfast foods on it"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "18d89ce159d39dd66653ed263682440b898d27a4bd23f6e7d4a108e4b44af94f",
+          "kind": "image",
+          "filename": "pixabay_img_4809593.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_4809593.jpg",
+          "file_id": 160,
+          "thumb": "18d89ce159d39dd66653ed263682440b898d27a4bd23f6e7d4a108e4b44af94f.jpg",
+          "caption": "a bowl of food sitting on a wooden table",
+          "score": 3.538,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "18d89ce159d39dd66653ed263682440b898d27a4bd23f6e7d4a108e4b44af94f.jpg",
+            "label": "a bowl of food sitting on a wooden table"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "312716b882ed3ec2ff15195bbe86f515cc9092f8282d673be879755bf74d4b27",
+          "kind": "image",
+          "filename": "pixabay_img_569156.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_569156.jpg",
+          "file_id": 186,
+          "thumb": "312716b882ed3ec2ff15195bbe86f515cc9092f8282d673be879755bf74d4b27.jpg",
+          "caption": "a woman sitting at a table with plates of food",
+          "score": 3.455,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "312716b882ed3ec2ff15195bbe86f515cc9092f8282d673be879755bf74d4b27.jpg",
+            "label": "a woman sitting at a table with plates of food"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "3391c964570d20285fc3ab8dd1c4fac3e3fcb1ef268aef968cfdf3accfa3ba7b",
+          "kind": "pdf",
+          "filename": "doc_1008.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1008.pdf",
+          "file_id": 254,
+          "thumb": "3391c964570d20285fc3ab8dd1c4fac3e3fcb1ef268aef968cfdf3accfa3ba7b_p3.jpg",
+          "caption": "the cover of the book coastal travel guide",
+          "score": 3.143,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 3.0,
+            "thumb": "3391c964570d20285fc3ab8dd1c4fac3e3fcb1ef268aef968cfdf3accfa3ba7b_p3.jpg",
+            "label": "a table full of food and wine"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "7be37b8276297b757c5349df8d849eb60e181008a330a1be3f9c911204582afa",
+          "kind": "image",
+          "filename": "pixabay_img_5356682.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_5356682.jpg",
+          "file_id": 173,
+          "thumb": "7be37b8276297b757c5349df8d849eb60e181008a330a1be3f9c911204582afa.jpg",
+          "caption": "a table set up for a dinner on a boat",
+          "score": 3.105,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "7be37b8276297b757c5349df8d849eb60e181008a330a1be3f9c911204582afa.jpg",
+            "label": "a table set up for a dinner on a boat"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "5298d6a2624d1c3eeca3c17d7c4874e60f3a0d5880a775c5f36ef67f9e7b1ad0",
+          "kind": "image",
+          "filename": "pixabay_img_2557408.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2557408.jpg",
+          "file_id": 108,
+          "thumb": "5298d6a2624d1c3eeca3c17d7c4874e60f3a0d5880a775c5f36ef67f9e7b1ad0.jpg",
+          "caption": "a man and a woman sitting at a table with cupcakes",
+          "score": 2.318,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "5298d6a2624d1c3eeca3c17d7c4874e60f3a0d5880a775c5f36ef67f9e7b1ad0.jpg",
+            "label": "a man and a woman sitting at a table with cupcakes"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "457621ec16d021c175aea10748b9f0c763c59700a7f8fdd269c02f80ee3bbef4",
+          "kind": "image",
+          "filename": "pixabay_img_1926936.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1926936.jpg",
+          "file_id": 85,
+          "thumb": "457621ec16d021c175aea10748b9f0c763c59700a7f8fdd269c02f80ee3bbef4.jpg",
+          "caption": "a table set for christmas dinner with gold and white plates",
+          "score": 2.232,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "457621ec16d021c175aea10748b9f0c763c59700a7f8fdd269c02f80ee3bbef4.jpg",
+            "label": "a table set for christmas dinner with gold and white plates"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 9,
+      "query": "a dog playing outdoors",
+      "intent": "Dogs running or playing outside.",
+      "expected": "Dog photos/videos in parks, beaches, gardens.",
+      "detected_type": null,
+      "embedded_query": "a dog playing outdoors",
+      "ms": 500,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d",
+          "kind": "pdf",
+          "filename": "doc_1010.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1010.pdf",
+          "file_id": 256,
+          "thumb": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d_p1.jpg",
+          "caption": "Happy Paws Pet Care \u2014 a dog is playing in the snow",
+          "score": 3.886,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 1.0,
+            "thumb": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d_p1.jpg",
+            "label": "a dog is playing in the snow"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "68a6cc65e3976506f21394695f00734d6493e12351917b872d8462d663ce027b",
+          "kind": "image",
+          "filename": "pixabay_img_9830833.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_9830833.jpg",
+          "file_id": 244,
+          "thumb": "68a6cc65e3976506f21394695f00734d6493e12351917b872d8462d663ce027b.jpg",
+          "caption": "a small dog is playing in the snow",
+          "score": 3.464,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "68a6cc65e3976506f21394695f00734d6493e12351917b872d8462d663ce027b.jpg",
+            "label": "a small dog is playing in the snow"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "0ba49ab78eead4ed6401e92c69e41dd04a148159bd7445bfd005dd1e836c8de9",
+          "kind": "image",
+          "filename": "pixabay_img_8637542.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_8637542.jpg",
+          "file_id": 232,
+          "thumb": "0ba49ab78eead4ed6401e92c69e41dd04a148159bd7445bfd005dd1e836c8de9.jpg",
+          "caption": "a small dog running across a lush green field",
+          "score": 3.302,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "0ba49ab78eead4ed6401e92c69e41dd04a148159bd7445bfd005dd1e836c8de9.jpg",
+            "label": "a small dog running across a lush green field"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "f88ed237e62c8917d442fe6fa8c89e071795b4b688f2ac70fae68a14a9eb2a84",
+          "kind": "image",
+          "filename": "pixabay_img_5671778.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_5671778.jpg",
+          "file_id": 185,
+          "thumb": "f88ed237e62c8917d442fe6fa8c89e071795b4b688f2ac70fae68a14a9eb2a84.jpg",
+          "caption": "a small white dog running through the grass",
+          "score": 3.187,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "f88ed237e62c8917d442fe6fa8c89e071795b4b688f2ac70fae68a14a9eb2a84.jpg",
+            "label": "a small white dog running through the grass"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "503fcd22b7e94d9bc0300f7369db8a6f199780df2f51b9c96e1b0bc187e48f7c",
+          "kind": "image",
+          "filename": "pixabay_img_7087887.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7087887.jpg",
+          "file_id": 203,
+          "thumb": "503fcd22b7e94d9bc0300f7369db8a6f199780df2f51b9c96e1b0bc187e48f7c.jpg",
+          "caption": "a woman is playing with a dog in a field",
+          "score": 3.057,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "503fcd22b7e94d9bc0300f7369db8a6f199780df2f51b9c96e1b0bc187e48f7c.jpg",
+            "label": "a woman is playing with a dog in a field"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "7cb707dd11732368124107ce2ea509711eca8d816828f1ad7267cec390ce52dd",
+          "kind": "image",
+          "filename": "pixabay_img_3066476.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3066476.jpg",
+          "file_id": 116,
+          "thumb": "7cb707dd11732368124107ce2ea509711eca8d816828f1ad7267cec390ce52dd.jpg",
+          "caption": "a dog with a red ball in its mouth",
+          "score": 3.049,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "7cb707dd11732368124107ce2ea509711eca8d816828f1ad7267cec390ce52dd.jpg",
+            "label": "a dog with a red ball in its mouth"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "ac98e7e5276e57d7242ac789af4479bd7a2791b4fea024635aa3a68fb1160d20",
+          "kind": "image",
+          "filename": "pixabay_img_5413165.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_5413165.jpg",
+          "file_id": 176,
+          "thumb": "ac98e7e5276e57d7242ac789af4479bd7a2791b4fea024635aa3a68fb1160d20.jpg",
+          "caption": "a dog digging a hole in the ground",
+          "score": 2.999,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "ac98e7e5276e57d7242ac789af4479bd7a2791b4fea024635aa3a68fb1160d20.jpg",
+            "label": "a dog digging a hole in the ground"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "4d3a9671a72e8160e3c5f5bfe908c36d9104e47859ad0384cca41300860763cd",
+          "kind": "image",
+          "filename": "pixabay_img_3600325.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3600325.jpg",
+          "file_id": 130,
+          "thumb": "4d3a9671a72e8160e3c5f5bfe908c36d9104e47859ad0384cca41300860763cd.jpg",
+          "caption": "a white dog standing in a field of tall grass",
+          "score": 2.983,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "4d3a9671a72e8160e3c5f5bfe908c36d9104e47859ad0384cca41300860763cd.jpg",
+            "label": "a white dog standing in a field of tall grass"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "35d91242a174f9ba6b8b71b4178360deee14c06983c157c4561264f76b94ad95",
+          "kind": "image",
+          "filename": "pixabay_img_5632005.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_5632005.jpg",
+          "file_id": 183,
+          "thumb": "35d91242a174f9ba6b8b71b4178360deee14c06983c157c4561264f76b94ad95.jpg",
+          "caption": "a dog laying on the ground in the sun",
+          "score": 2.96,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "35d91242a174f9ba6b8b71b4178360deee14c06983c157c4561264f76b94ad95.jpg",
+            "label": "a dog laying on the ground in the sun"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "12a0d600fd98138d6414217ddd14655718d02d0015f3d1a25c498d2a54e352ff",
+          "kind": "image",
+          "filename": "pixabay_img_7543571.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7543571.jpg",
+          "file_id": 211,
+          "thumb": "12a0d600fd98138d6414217ddd14655718d02d0015f3d1a25c498d2a54e352ff.jpg",
+          "caption": "a small white dog carrying a stick in its mouth",
+          "score": 2.921,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "12a0d600fd98138d6414217ddd14655718d02d0015f3d1a25c498d2a54e352ff.jpg",
+            "label": "a small white dog carrying a stick in its mouth"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 10,
+      "query": "beach at sunset",
+      "intent": "Seaside scenes at dusk.",
+      "expected": "Beach + sunset images and ocean clips.",
+      "detected_type": null,
+      "embedded_query": "beach at sunset",
+      "ms": 265,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "bc577e503c19366ae2cd3e9401f4ae63d28d771147f4d09b1baa52481693fb56",
+          "kind": "image",
+          "filename": "pixabay_img_1637376.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1637376.jpg",
+          "file_id": 55,
+          "thumb": "bc577e503c19366ae2cd3e9401f4ae63d28d771147f4d09b1baa52481693fb56.jpg",
+          "caption": "a beach at sunset with waves coming in the sand",
+          "score": 4.343,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "bc577e503c19366ae2cd3e9401f4ae63d28d771147f4d09b1baa52481693fb56.jpg",
+            "label": "a beach at sunset with waves coming in the sand"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "b08b81447c740af9f88c446580bcc4675e866cf973ceb321832ac2e1adecac7f",
+          "kind": "image",
+          "filename": "pixabay_img_9280759.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_9280759.jpg",
+          "file_id": 238,
+          "thumb": "b08b81447c740af9f88c446580bcc4675e866cf973ceb321832ac2e1adecac7f.jpg",
+          "caption": "a pier on the beach at sunset",
+          "score": 4.24,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "b08b81447c740af9f88c446580bcc4675e866cf973ceb321832ac2e1adecac7f.jpg",
+            "label": "a pier on the beach at sunset"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "7f3392703e1daf2940b535abb56ea70d269dc905347b1f8fa68817f7a9b4cb56",
+          "kind": "image",
+          "filename": "pixabay_img_3726030.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3726030.jpg",
+          "file_id": 134,
+          "thumb": "7f3392703e1daf2940b535abb56ea70d269dc905347b1f8fa68817f7a9b4cb56.jpg",
+          "caption": "a beautiful sunset over the ocean with waves and clouds",
+          "score": 3.987,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "7f3392703e1daf2940b535abb56ea70d269dc905347b1f8fa68817f7a9b4cb56.jpg",
+            "label": "a beautiful sunset over the ocean with waves and clouds"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "94890d83f4cb5871ab52aea9c063772368d13be7229b270e99e4836639854af1",
+          "kind": "image",
+          "filename": "pixabay_img_1850059.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1850059.jpg",
+          "file_id": 73,
+          "thumb": "94890d83f4cb5871ab52aea9c063772368d13be7229b270e99e4836639854af1.jpg",
+          "caption": "a beautiful sunset over the ocean with rocks in the fore",
+          "score": 3.888,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "94890d83f4cb5871ab52aea9c063772368d13be7229b270e99e4836639854af1.jpg",
+            "label": "a beautiful sunset over the ocean with rocks in the fore"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "166b85824ce0bd8605c7114be6603a6306bcb24a1dbbc701048937b57bf166f9",
+          "kind": "image",
+          "filename": "pixabay_img_5383043.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_5383043.jpg",
+          "file_id": 175,
+          "thumb": "166b85824ce0bd8605c7114be6603a6306bcb24a1dbbc701048937b57bf166f9.jpg",
+          "caption": "the sun is setting over the ocean at the beach",
+          "score": 3.712,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "166b85824ce0bd8605c7114be6603a6306bcb24a1dbbc701048937b57bf166f9.jpg",
+            "label": "the sun is setting over the ocean at the beach"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "edbcea363db6011b32a7f95f4ba7e7062612e1a11db8d50e1842d73c9c3b3818",
+          "kind": "image",
+          "filename": "pixabay_img_1089035.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1089035.jpg",
+          "file_id": 47,
+          "thumb": "edbcea363db6011b32a7f95f4ba7e7062612e1a11db8d50e1842d73c9c3b3818.jpg",
+          "caption": "a rocky beach at sunset with a lighthouse in the distance",
+          "score": 3.686,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "edbcea363db6011b32a7f95f4ba7e7062612e1a11db8d50e1842d73c9c3b3818.jpg",
+            "label": "a rocky beach at sunset with a lighthouse in the distance"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "a147ef4503eb9c810d7c0276d0ffb1f6816f097d0b9a66897f71c08b9f936747",
+          "kind": "image",
+          "filename": "pixabay_img_1985086.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1985086.jpg",
+          "file_id": 87,
+          "thumb": "a147ef4503eb9c810d7c0276d0ffb1f6816f097d0b9a66897f71c08b9f936747.jpg",
+          "caption": "a colorful sunset over the ocean with rocks in the fore",
+          "score": 3.566,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "a147ef4503eb9c810d7c0276d0ffb1f6816f097d0b9a66897f71c08b9f936747.jpg",
+            "label": "a colorful sunset over the ocean with rocks in the fore"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "38596ae233de9f45510c7d27f3ebb3afb14d1391065b1609ed16d9d655ff25ed",
+          "kind": "video",
+          "filename": "pixabay_vid_314643.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_314643.mp4",
+          "file_id": 17,
+          "thumb": "38596ae233de9f45510c7d27f3ebb3afb14d1391065b1609ed16d9d655ff25ed_t2.jpg",
+          "caption": "an aerial view of a beach and the ocean",
+          "score": 2.89,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 8.0,
+            "thumb": "38596ae233de9f45510c7d27f3ebb3afb14d1391065b1609ed16d9d655ff25ed_t2.jpg",
+            "label": "an aerial view of a beach and the ocean"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "41734f41bd0e9bddd6000c88c692a0cd9db851a632382d302c0b5583e137933c",
+          "kind": "image",
+          "filename": "pixabay_img_1761410.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1761410.jpg",
+          "file_id": 61,
+          "thumb": "41734f41bd0e9bddd6000c88c692a0cd9db851a632382d302c0b5583e137933c.jpg",
+          "caption": "a beautiful tropical beach with palm trees and blue water",
+          "score": 2.649,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "41734f41bd0e9bddd6000c88c692a0cd9db851a632382d302c0b5583e137933c.jpg",
+            "label": "a beautiful tropical beach with palm trees and blue water"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "3c393ec64ba9df19ac75fa92d7fd7df421a7e213f1e3b4a8414bfe9390df0bec",
+          "kind": "image",
+          "filename": "pixabay_img_8170058.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_8170058.jpg",
+          "file_id": 221,
+          "thumb": "3c393ec64ba9df19ac75fa92d7fd7df421a7e213f1e3b4a8414bfe9390df0bec.jpg",
+          "caption": "a view of a city at sunset",
+          "score": 2.164,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3c393ec64ba9df19ac75fa92d7fd7df421a7e213f1e3b4a8414bfe9390df0bec.jpg",
+            "label": "a view of a city at sunset"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 11,
+      "query": "apartment floor plan",
+      "intent": "Documents or images containing architectural floor plans.",
+      "expected": "Brochure pages with floor plans (matched page number shown).",
+      "detected_type": null,
+      "embedded_query": "apartment floor plan",
+      "ms": 212,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "3e16c2683b8eaa965c600f2bbac1ebd15f741b137479b1ddaeb8aa1e2a0f13ad",
+          "kind": "image",
+          "filename": "pixabay_img_7124141.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7124141.jpg",
+          "file_id": 204,
+          "thumb": "3e16c2683b8eaa965c600f2bbac1ebd15f741b137479b1ddaeb8aa1e2a0f13ad.jpg",
+          "caption": "an apartment building with bales and bales bales bales bales bales bales bales bales bales bales bal",
+          "score": 2.432,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3e16c2683b8eaa965c600f2bbac1ebd15f741b137479b1ddaeb8aa1e2a0f13ad.jpg",
+            "label": "an apartment building with bales and bales bales bales bales bales bales bales bales bales bales bal"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "d7e91a6333d93e654a3404397568c6cacc7690730d32a180c611e01569bbd100",
+          "kind": "pdf",
+          "filename": "doc_1002.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1002.pdf",
+          "file_id": 248,
+          "thumb": "d7e91a6333d93e654a3404397568c6cacc7690730d32a180c611e01569bbd100_p3.jpg",
+          "caption": "Skyline Heights Apartments \u2014 a room with a fireplace and a large window",
+          "score": 2.396,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 3.0,
+            "thumb": "d7e91a6333d93e654a3404397568c6cacc7690730d32a180c611e01569bbd100_p3.jpg",
+            "label": "Skyline Heights Apartments - highlights Book your dream home today.."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "80ddf714913a056d62a4ba338b1fcaf58d041d7679808163099981c92c0c333d",
+          "kind": "image",
+          "filename": "pixabay_img_2437446.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2437446.jpg",
+          "file_id": 104,
+          "thumb": "80ddf714913a056d62a4ba338b1fcaf58d041d7679808163099981c92c0c333d.jpg",
+          "caption": "a blackboard with white lines on it",
+          "score": 2.33,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "80ddf714913a056d62a4ba338b1fcaf58d041d7679808163099981c92c0c333d.jpg",
+            "label": "a blackboard with white lines on it"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "b8905d62015152580b28d52beb9bbdfa7548079f1fc9413966c97dad13c3aeaf",
+          "kind": "pdf",
+          "filename": "doc_1005.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1005.pdf",
+          "file_id": 251,
+          "thumb": "b8905d62015152580b28d52beb9bbdfa7548079f1fc9413966c97dad13c3aeaf_p2.jpg",
+          "caption": "Riverside Township Phase II \u2014 the cover of the book riverside town phase ii",
+          "score": 2.31,
+          "confidence": "high",
+          "match": {
+            "source": "pdf_text",
+            "ref": 2.0,
+            "thumb": "b8905d62015152580b28d52beb9bbdfa7548079f1fc9413966c97dad13c3aeaf_p2.jpg",
+            "label": "Riverside Township Phase II - highlights Plotted development and row houses with typical floor plans, amenities and construction progress updates.."
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "ef4f60f291f5b32f2c7a15fa25cb113817af237bcd3f799aee4f1e63e9fa283d",
+          "kind": "image",
+          "filename": "pixabay_img_1845884.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1845884.jpg",
+          "file_id": 71,
+          "thumb": "ef4f60f291f5b32f2c7a15fa25cb113817af237bcd3f799aee4f1e63e9fa283d.jpg",
+          "caption": "an apartment building with many windows and bals",
+          "score": 2.298,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "ef4f60f291f5b32f2c7a15fa25cb113817af237bcd3f799aee4f1e63e9fa283d.jpg",
+            "label": "an apartment building with many windows and bals"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "302994675d962d9e6a370392270e7e73eff811158d644ba8f8e63fcf6ee00b5d",
+          "kind": "pdf",
+          "filename": "doc_1003.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1003.pdf",
+          "file_id": 249,
+          "thumb": "302994675d962d9e6a370392270e7e73eff811158d644ba8f8e63fcf6ee00b5d_p2.jpg",
+          "caption": "Palm Grove Villas \u2014 the cover of a book with a pool in the background",
+          "score": 2.073,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 2.0,
+            "thumb": "302994675d962d9e6a370392270e7e73eff811158d644ba8f8e63fcf6ee00b5d_p2.jpg",
+            "label": "a large room with white walls and wood floors"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "6393e6e7dcad4b650f096dd7350d00651f3b129a46fd2382fe7039354050f76c",
+          "kind": "image",
+          "filename": "pixabay_img_894779.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_894779.jpg",
+          "file_id": 234,
+          "thumb": "6393e6e7dcad4b650f096dd7350d00651f3b129a46fd2382fe7039354050f76c.jpg",
+          "caption": "a drawing of a house with blueprints on it",
+          "score": 2.037,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "6393e6e7dcad4b650f096dd7350d00651f3b129a46fd2382fe7039354050f76c.jpg",
+            "label": "a drawing of a house with blueprints on it"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3",
+          "kind": "pdf",
+          "filename": "doc_1004.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1004.pdf",
+          "file_id": 250,
+          "thumb": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3_p1.jpg",
+          "caption": "an empty room with white walls and wood floors",
+          "score": 1.986,
+          "confidence": "medium",
+          "match": {
+            "source": "caption",
+            "ref": 1.0,
+            "thumb": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3_p1.jpg",
+            "label": "an empty room with white walls and wood floors"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "0fd39be2af7feee73c14e939f6a985ab83a210bdc332d08a30efad852b9906bf",
+          "kind": "image",
+          "filename": "pixabay_img_5339245.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_5339245.jpg",
+          "file_id": 171,
+          "thumb": "0fd39be2af7feee73c14e939f6a985ab83a210bdc332d08a30efad852b9906bf.jpg",
+          "caption": "an empty room with wooden floors and white walls",
+          "score": 1.953,
+          "confidence": "medium",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "0fd39be2af7feee73c14e939f6a985ab83a210bdc332d08a30efad852b9906bf.jpg",
+            "label": "an empty room with wooden floors and white walls"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "3fedcab0ee0499bf2e333fd93d88cc78553f62e5460483810149d0426a0a3273",
+          "kind": "image",
+          "filename": "pixabay_img_2685521.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2685521.jpg",
+          "file_id": 110,
+          "thumb": "3fedcab0ee0499bf2e333fd93d88cc78553f62e5460483810149d0426a0a3273.jpg",
+          "caption": "a living room with a couch, chair and stairs",
+          "score": 1.941,
+          "confidence": "medium",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3fedcab0ee0499bf2e333fd93d88cc78553f62e5460483810149d0426a0a3273.jpg",
+            "label": "a living room with a couch, chair and stairs"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 12,
+      "query": "construction site photos",
+      "intent": "Still images (not videos) of construction work.",
+      "expected": "Construction images ranked above construction videos (type intent = image).",
+      "detected_type": "image",
+      "embedded_query": "construction site",
+      "ms": 169,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "e0748c8fb0c65ab9fdaade0100d80b756d1065a4a61413915f2c3115fa3895c9",
+          "kind": "image",
+          "filename": "pixabay_img_4020496.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_4020496.jpg",
+          "file_id": 141,
+          "thumb": "e0748c8fb0c65ab9fdaade0100d80b756d1065a4a61413915f2c3115fa3895c9.jpg",
+          "caption": "construction workers at a construction site",
+          "score": 4.143,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "e0748c8fb0c65ab9fdaade0100d80b756d1065a4a61413915f2c3115fa3895c9.jpg",
+            "label": "construction workers at a construction site"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "a7441f78c0f8f41a0228adf59a8da3416e2f20c0be37d32e9de0a2ceed013656",
+          "kind": "image",
+          "filename": "pixabay_img_3555550.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3555550.jpg",
+          "file_id": 129,
+          "thumb": "a7441f78c0f8f41a0228adf59a8da3416e2f20c0be37d32e9de0a2ceed013656.jpg",
+          "caption": "a building under construction with scr scr scr scr scr scr scr scr scr scr scr sc",
+          "score": 3.941,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "a7441f78c0f8f41a0228adf59a8da3416e2f20c0be37d32e9de0a2ceed013656.jpg",
+            "label": "a building under construction with scr scr scr scr scr scr scr scr scr scr scr sc"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "3cbb6c69402bb2f20daf4bb02892a480026d75502a241682b265e44a87640ca4",
+          "kind": "image",
+          "filename": "pixabay_img_2739233.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_2739233.jpg",
+          "file_id": 112,
+          "thumb": "3cbb6c69402bb2f20daf4bb02892a480026d75502a241682b265e44a87640ca4.jpg",
+          "caption": "a group of construction workers standing around a construction site",
+          "score": 3.932,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "3cbb6c69402bb2f20daf4bb02892a480026d75502a241682b265e44a87640ca4.jpg",
+            "label": "a group of construction workers standing around a construction site"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "fefa2df43fdd1a8786da6a00db5d4a1cb8c2e59af49a73d7fc8e1a3d96a1d34b",
+          "kind": "image",
+          "filename": "pixabay_img_4686908.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_4686908.jpg",
+          "file_id": 155,
+          "thumb": "fefa2df43fdd1a8786da6a00db5d4a1cb8c2e59af49a73d7fc8e1a3d96a1d34b.jpg",
+          "caption": "a group of construction workers working on a construction site",
+          "score": 3.817,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "fefa2df43fdd1a8786da6a00db5d4a1cb8c2e59af49a73d7fc8e1a3d96a1d34b.jpg",
+            "label": "a group of construction workers working on a construction site"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "a270e05f3b93a2c2a39a98bd7122c7f397bc6345bda2caded926a17823438f95",
+          "kind": "image",
+          "filename": "pixabay_img_4754309.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_4754309.jpg",
+          "file_id": 159,
+          "thumb": "a270e05f3b93a2c2a39a98bd7122c7f397bc6345bda2caded926a17823438f95.jpg",
+          "caption": "a man in a construction site looking at a crane",
+          "score": 3.774,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "a270e05f3b93a2c2a39a98bd7122c7f397bc6345bda2caded926a17823438f95.jpg",
+            "label": "a man in a construction site looking at a crane"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "c04f7806c6ecf920799b27f94fad4d155404c0c60d51eb7c8c64880e0834beec",
+          "kind": "image",
+          "filename": "copy_pixabay_img_10411397.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\misc_uploads\\copy_pixabay_img_10411397.jpg",
+          "file_id": 29,
+          "thumb": "c04f7806c6ecf920799b27f94fad4d155404c0c60d51eb7c8c64880e0834beec.jpg",
+          "caption": "a man standing on top of a building under construction",
+          "score": 3.597,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "c04f7806c6ecf920799b27f94fad4d155404c0c60d51eb7c8c64880e0834beec.jpg",
+            "label": "a man standing on top of a building under construction"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569",
+          "kind": "video",
+          "filename": "pixabay_vid_41826.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_41826.mp4",
+          "file_id": 22,
+          "thumb": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569_t1.jpg",
+          "caption": "a construction site in the middle of a city",
+          "score": 3.511,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 4.0,
+            "thumb": "b40853063e00c89e3ac043e5cbcb274eb1cfac67e2e41be579395ab453ee0569_t1.jpg",
+            "label": "a construction site with a crane and construction equipment"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "ee65d857f7464ec9a15d4a9e47ca355c906fcec978febbce9ba2bc95eeac54e1",
+          "kind": "video",
+          "filename": "pixabay_vid_42926.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_42926.mp4",
+          "file_id": 24,
+          "thumb": "ee65d857f7464ec9a15d4a9e47ca355c906fcec978febbce9ba2bc95eeac54e1_t0.jpg",
+          "caption": "a construction site with a crane on top of it",
+          "score": 3.509,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "ee65d857f7464ec9a15d4a9e47ca355c906fcec978febbce9ba2bc95eeac54e1_t0.jpg",
+            "label": "a construction site in the middle of a city"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5",
+          "kind": "video",
+          "filename": "pixabay_vid_42923.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_42923.mp4",
+          "file_id": 23,
+          "thumb": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5_t3.jpg",
+          "caption": "construction workers work on the site of a building under construction in mumbai",
+          "score": 3.352,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 12.0,
+            "thumb": "849b99b97d31fbfd270eebf0c62ab8307d96b923db8ebeaf27102305ca75e8b5_t3.jpg",
+            "label": "aerial view of construction site"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "7f61c9158ed001601efa74e8e59775671e850a1b8b7dfe9d676df02ec5b03abc",
+          "kind": "video",
+          "filename": "pixabay_vid_199375.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_199375.mp4",
+          "file_id": 11,
+          "thumb": "7f61c9158ed001601efa74e8e59775671e850a1b8b7dfe9d676df02ec5b03abc_t1.jpg",
+          "caption": "an aerial view of a construction site",
+          "score": 3.241,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 4.0,
+            "thumb": "7f61c9158ed001601efa74e8e59775671e850a1b8b7dfe9d676df02ec5b03abc_t1.jpg",
+            "label": "an aerial view of a construction site"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 13,
+      "query": "a red car parked on the street",
+      "intent": "Fine-grained attribute query (colour + object + context).",
+      "expected": "Street/car images; expected weakness: colour attribute may be ignored.",
+      "detected_type": null,
+      "embedded_query": "a red car parked on the street",
+      "ms": 174,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "637c8e04916fc361acdaea37ee6d033ccd16bc1e8d21f450b616cf969b6cafd1",
+          "kind": "image",
+          "filename": "pixabay_img_1846910.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1846910.jpg",
+          "file_id": 72,
+          "thumb": "637c8e04916fc361acdaea37ee6d033ccd16bc1e8d21f450b616cf969b6cafd1.jpg",
+          "caption": "a red car parked on the side of a street",
+          "score": 4.863,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "637c8e04916fc361acdaea37ee6d033ccd16bc1e8d21f450b616cf969b6cafd1.jpg",
+            "label": "a red car parked on the side of a street"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "042df73533437d77c49c16f417d2200fb316fd62f722b1b2992350879bd702c7",
+          "kind": "image",
+          "filename": "pixabay_img_8235289.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_8235289.jpg",
+          "file_id": 226,
+          "thumb": "042df73533437d77c49c16f417d2200fb316fd62f722b1b2992350879bd702c7.jpg",
+          "caption": "a red car parked on a cobb road",
+          "score": 4.584,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "042df73533437d77c49c16f417d2200fb316fd62f722b1b2992350879bd702c7.jpg",
+            "label": "a red car parked on a cobb road"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "e46126b4adc725e434c74848ce60e6092dbbffbf5f7e9243551b112ede00a34d",
+          "kind": "image",
+          "filename": "pixabay_img_4333567.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_4333567.jpg",
+          "file_id": 145,
+          "thumb": "e46126b4adc725e434c74848ce60e6092dbbffbf5f7e9243551b112ede00a34d.jpg",
+          "caption": "a red car parked in front of a building",
+          "score": 4.392,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "e46126b4adc725e434c74848ce60e6092dbbffbf5f7e9243551b112ede00a34d.jpg",
+            "label": "a red car parked in front of a building"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "2e29ec459586e457018c060ceec123b473c3b900fe3b9ff78fd7c2b05cb29528",
+          "kind": "image",
+          "filename": "pixabay_img_3335042.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3335042.jpg",
+          "file_id": 125,
+          "thumb": "2e29ec459586e457018c060ceec123b473c3b900fe3b9ff78fd7c2b05cb29528.jpg",
+          "caption": "a red car parked in front of a yellow building",
+          "score": 3.946,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "2e29ec459586e457018c060ceec123b473c3b900fe3b9ff78fd7c2b05cb29528.jpg",
+            "label": "a red car parked in front of a yellow building"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "f666fa7af1bac8a1bb83e115145932490f56a075b756fda99caa71ec1c0c0985",
+          "kind": "image",
+          "filename": "pixabay_img_5989090.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_5989090.jpg",
+          "file_id": 193,
+          "thumb": "f666fa7af1bac8a1bb83e115145932490f56a075b756fda99caa71ec1c0c0985.jpg",
+          "caption": "a small car parked on the side of the road",
+          "score": 3.834,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "f666fa7af1bac8a1bb83e115145932490f56a075b756fda99caa71ec1c0c0985.jpg",
+            "label": "a small car parked on the side of the road"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "dd23dc82f93c758594803dc7747abfc38d934ade4c4fe98de3211fb03f960dc9",
+          "kind": "image",
+          "filename": "pixabay_img_3288435.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3288435.jpg",
+          "file_id": 123,
+          "thumb": "dd23dc82f93c758594803dc7747abfc38d934ade4c4fe98de3211fb03f960dc9.jpg",
+          "caption": "a blue car parked in front of a house",
+          "score": 2.845,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "dd23dc82f93c758594803dc7747abfc38d934ade4c4fe98de3211fb03f960dc9.jpg",
+            "label": "a blue car parked in front of a house"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3",
+          "kind": "pdf",
+          "filename": "doc_1004.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1004.pdf",
+          "file_id": 250,
+          "thumb": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3_p2.jpg",
+          "caption": "an empty room with white walls and wood floors",
+          "score": 2.654,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 2.0,
+            "thumb": "fde5ae73cff2f542d6f611a33489f86821f19787477140079b6a2bc65580d3e3_p2.jpg",
+            "label": "a blue car parked in front of a house"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "53f7a54c04fa8753c1dedff508ee0472fa8c6e559640405a6853a4ad69842738",
+          "kind": "image",
+          "filename": "pixabay_img_7148771.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7148771.jpg",
+          "file_id": 205,
+          "thumb": "53f7a54c04fa8753c1dedff508ee0472fa8c6e559640405a6853a4ad69842738.jpg",
+          "caption": "a white car parked in front of a house",
+          "score": 2.504,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "53f7a54c04fa8753c1dedff508ee0472fa8c6e559640405a6853a4ad69842738.jpg",
+            "label": "a white car parked in front of a house"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "4c5df2869cb35faae4288f5399faa33a2a88bc19e09db35dcf36a7af575380b0",
+          "kind": "image",
+          "filename": "pixabay_img_1851497.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1851497.jpg",
+          "file_id": 76,
+          "thumb": "4c5df2869cb35faae4288f5399faa33a2a88bc19e09db35dcf36a7af575380b0.jpg",
+          "caption": "a bicycle parked on the side of a street",
+          "score": 2.289,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "4c5df2869cb35faae4288f5399faa33a2a88bc19e09db35dcf36a7af575380b0.jpg",
+            "label": "a bicycle parked on the side of a street"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "b0f7b52336be5072db0de5792f2287f3a3d04f8ff3126edc56bc948865c8d422",
+          "kind": "video",
+          "filename": "pixabay_vid_40298.mp4",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\videos\\pixabay_vid_40298.mp4",
+          "file_id": 20,
+          "thumb": "b0f7b52336be5072db0de5792f2287f3a3d04f8ff3126edc56bc948865c8d422_t0.jpg",
+          "caption": "a building under construction",
+          "score": 2.287,
+          "confidence": "high",
+          "match": {
+            "source": "frame",
+            "ref": 0.0,
+            "thumb": "b0f7b52336be5072db0de5792f2287f3a3d04f8ff3126edc56bc948865c8d422_t0.jpg",
+            "label": "an empty parking with a few cars parked in it"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    },
+    {
+      "id": 14,
+      "query": "two cats sleeping together",
+      "intent": "Counting + action query.",
+      "expected": "Expected weakness: CLIP is poor at counting, single cats will appear.",
+      "detected_type": null,
+      "embedded_query": "two cats sleeping together",
+      "ms": 216,
+      "results": [
+        {
+          "rank": 1,
+          "hash": "a00dd61e93c148d7215e15b4d790942c9648fe025f7a04e96b6c6c308eda5c8f",
+          "kind": "image",
+          "filename": "pixabay_img_8105667.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_8105667.jpg",
+          "file_id": 220,
+          "thumb": "a00dd61e93c148d7215e15b4d790942c9648fe025f7a04e96b6c6c308eda5c8f.jpg",
+          "caption": "two kittens are walking in the grass",
+          "score": 3.606,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "a00dd61e93c148d7215e15b4d790942c9648fe025f7a04e96b6c6c308eda5c8f.jpg",
+            "label": "two kittens are walking in the grass"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 2,
+          "hash": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d",
+          "kind": "pdf",
+          "filename": "doc_1010.pdf",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\documents\\doc_1010.pdf",
+          "file_id": 256,
+          "thumb": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d_p2.jpg",
+          "caption": "Happy Paws Pet Care \u2014 a dog is playing in the snow",
+          "score": 3.435,
+          "confidence": "high",
+          "match": {
+            "source": "caption",
+            "ref": 2.0,
+            "thumb": "726c6f4329a00b638722372792591770a83e3237677545ba4cc198cf4f93cf8d_p2.jpg",
+            "label": "a cat laying down on a white surface"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 3,
+          "hash": "0e2fedff8bd9c20537fd2b89782295e7a2696daafc24e9c95a546284656e950b",
+          "kind": "image",
+          "filename": "pixabay_img_7965411.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_7965411.jpg",
+          "file_id": 216,
+          "thumb": "0e2fedff8bd9c20537fd2b89782295e7a2696daafc24e9c95a546284656e950b.jpg",
+          "caption": "a kitten laying on a bed with an orange blanket",
+          "score": 3.119,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "0e2fedff8bd9c20537fd2b89782295e7a2696daafc24e9c95a546284656e950b.jpg",
+            "label": "a kitten laying on a bed with an orange blanket"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 4,
+          "hash": "7a2d1ff9b2d11730e091208d8df2ebfbcb8aff24546c80b8f4f6a3f585c95dbe",
+          "kind": "image",
+          "filename": "pixabay_img_1561948.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1561948.jpg",
+          "file_id": 53,
+          "thumb": "7a2d1ff9b2d11730e091208d8df2ebfbcb8aff24546c80b8f4f6a3f585c95dbe.jpg",
+          "caption": "a black and white photo of a cat",
+          "score": 3.104,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "7a2d1ff9b2d11730e091208d8df2ebfbcb8aff24546c80b8f4f6a3f585c95dbe.jpg",
+            "label": "a black and white photo of a cat"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 5,
+          "hash": "7cef58572eb350fa072abfdb4e76fa73facae1e5047cb015f07c5441de2f60f2",
+          "kind": "image",
+          "filename": "copy_pixabay_img_1192026.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\misc_uploads\\copy_pixabay_img_1192026.jpg",
+          "file_id": 30,
+          "thumb": "7cef58572eb350fa072abfdb4e76fa73facae1e5047cb015f07c5441de2f60f2.jpg",
+          "caption": "a kitten laying down on a white surface",
+          "score": 2.905,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "7cef58572eb350fa072abfdb4e76fa73facae1e5047cb015f07c5441de2f60f2.jpg",
+            "label": "a kitten laying down on a white surface"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 6,
+          "hash": "29d4309c548593d098897b30f9d5feadc6dbdea1b14a11ca337e636d88d365c7",
+          "kind": "image",
+          "filename": "pixabay_img_3038253.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_3038253.jpg",
+          "file_id": 115,
+          "thumb": "29d4309c548593d098897b30f9d5feadc6dbdea1b14a11ca337e636d88d365c7.jpg",
+          "caption": "a woman holding a cat in her arms",
+          "score": 2.898,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "29d4309c548593d098897b30f9d5feadc6dbdea1b14a11ca337e636d88d365c7.jpg",
+            "label": "a woman holding a cat in her arms"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 7,
+          "hash": "f57e8aae2881314f5ccd00f8af9e31be18fcd39df5c500e74615a5b1cb52710f",
+          "kind": "image",
+          "filename": "pixabay_img_1045782.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1045782.jpg",
+          "file_id": 44,
+          "thumb": "f57e8aae2881314f5ccd00f8af9e31be18fcd39df5c500e74615a5b1cb52710f.jpg",
+          "caption": "a close up of a cat with blue eyes",
+          "score": 2.643,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "f57e8aae2881314f5ccd00f8af9e31be18fcd39df5c500e74615a5b1cb52710f.jpg",
+            "label": "a close up of a cat with blue eyes"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 8,
+          "hash": "18861ae4621798f8c71fa84d5dd430f4ddf3060188ebae0178a6cf11292387fe",
+          "kind": "image",
+          "filename": "copy_pixabay_img_6647719.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\misc_uploads\\copy_pixabay_img_6647719.jpg",
+          "file_id": 35,
+          "thumb": "18861ae4621798f8c71fa84d5dd430f4ddf3060188ebae0178a6cf11292387fe.jpg",
+          "caption": "a woman holding a cat in her arms",
+          "score": 2.625,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "18861ae4621798f8c71fa84d5dd430f4ddf3060188ebae0178a6cf11292387fe.jpg",
+            "label": "a woman holding a cat in her arms"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 9,
+          "hash": "4d89f589f415ea6fe85549ea10ccae4d24b089e8167a6e2bb618b5c4f2ee6edd",
+          "kind": "image",
+          "filename": "pixabay_img_1652880.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_1652880.jpg",
+          "file_id": 58,
+          "thumb": "4d89f589f415ea6fe85549ea10ccae4d24b089e8167a6e2bb618b5c4f2ee6edd.jpg",
+          "caption": "a close up of a cat with green eyes",
+          "score": 2.564,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "4d89f589f415ea6fe85549ea10ccae4d24b089e8167a6e2bb618b5c4f2ee6edd.jpg",
+            "label": "a close up of a cat with green eyes"
+          },
+          "relevant": null
+        },
+        {
+          "rank": 10,
+          "hash": "60f5645d1d310bf8337ad12f6752d92d8361d8c38a42d193d598d29c246ae5f5",
+          "kind": "image",
+          "filename": "pixabay_img_6687637.jpg",
+          "path": "C:\\Users\\SHEEMA\\AssetLensData\\media\\images\\pixabay_img_6687637.jpg",
+          "file_id": 198,
+          "thumb": "60f5645d1d310bf8337ad12f6752d92d8361d8c38a42d193d598d29c246ae5f5.jpg",
+          "caption": "a woman sitting on a chair holding a cat",
+          "score": 2.519,
+          "confidence": "high",
+          "match": {
+            "source": "image",
+            "ref": null,
+            "thumb": "60f5645d1d310bf8337ad12f6752d92d8361d8c38a42d193d598d29c246ae5f5.jpg",
+            "label": "a woman sitting on a chair holding a cat"
+          },
+          "relevant": null
+        }
+      ],
+      "metrics": null,
+      "note": ""
+    }
+  ]
+}
